@@ -50,7 +50,7 @@
       <AdditionalIncludeDirectories>$(ProjectDir)..\StepperDriver;$(ProjectDir)..\..\..\..\Program Files (x86)\Arduino\libraries;$(ProjectDir)..\..\..\..\dev\Arduino\Projects\libraries;$(ProjectDir)..\..\..\..\dev\Arduino\Projects\hardware\tiny\avr\libraries;$(ProjectDir)..\..\..\..\dev\Arduino\Projects\hardware\tiny\avr\cores\tiny;C:\Users\UBER\AppData\Local\arduino15\packages\arduino\tools\avr-gcc\4.9.2-atmel3.5.4-arduino2\avr\include;C:\Users\UBER\AppData\Local\arduino15\packages\arduino\tools\avr-gcc\4.9.2-atmel3.5.4-arduino2\avr\include\avr;C:\Users\UBER\AppData\Local\arduino15\packages\arduino\tools\avr-gcc\4.9.2-atmel3.5.4-arduino2\lib\gcc\avr\4.8.1\include;C:\Users\UBER\AppData\Local\arduino15\packages\arduino\tools\avr-gcc\4.9.2-atmel3.5.4-arduino2\lib\gcc\avr\4.9.2\include;C:\Users\UBER\AppData\Local\arduino15\packages\arduino\tools\avr-gcc\4.9.2-atmel3.5.4-arduino2\lib\gcc\avr\4.9.3\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <ForcedIncludeFiles>$(ProjectDir)__vm\.StepperDriver.vsarduino.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
       <IgnoreStandardIncludePath>false</IgnoreStandardIncludePath>
-      <PreprocessorDefinitions>__AVR_ATtiny45__;__AVR_ATTINY45__;F_CPU=8000000L;ARDUINO=10803;ARDUINO_AVR_ATTINY45AT8;ARDUINO_ARCH_AVR;__cplusplus=201103L;_VMICRO_INTELLISENSE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>__AVR_ATtiny45__;__AVR_ATTINY45__;_VMDEBUG=1;F_CPU=8000000L;ARDUINO=10803;ARDUINO_AVR_ATTINY45AT8;ARDUINO_ARCH_AVR;__cplusplus=201103L;_VMICRO_INTELLISENSE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
     </ClCompile>
     <Link>
       <GenerateDebugInformation>true</GenerateDebugInformation>
@@ -59,10 +59,14 @@
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <ClCompile>
       <WarningLevel>Level3</WarningLevel>
-      <Optimization>MaxSpeed</Optimization>
+      <Optimization>Disabled</Optimization>
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>$(ProjectDir)..\StepperDriver;$(ProjectDir)..\..\..\Program Files (x86)\Arduino\libraries;$(ProjectDir)..\..\..\dev\Arduino\Projects\libraries;$(ProjectDir)..\..\..\dev\Arduino\Projects\hardware\tiny\avr\libraries;$(ProjectDir)..\..\..\dev\Arduino\Projects\hardware\tiny\avr\cores\tiny;C:\Users\UBER\AppData\Local\arduino15\packages\arduino\tools\avr-gcc\4.9.2-atmel3.5.4-arduino2\avr\include;C:\Users\UBER\AppData\Local\arduino15\packages\arduino\tools\avr-gcc\4.9.2-atmel3.5.4-arduino2\avr\include\avr;C:\Users\UBER\AppData\Local\arduino15\packages\arduino\tools\avr-gcc\4.9.2-atmel3.5.4-arduino2\lib\gcc\avr\4.8.1\include;C:\Users\UBER\AppData\Local\arduino15\packages\arduino\tools\avr-gcc\4.9.2-atmel3.5.4-arduino2\lib\gcc\avr\4.9.2\include;C:\Users\UBER\AppData\Local\arduino15\packages\arduino\tools\avr-gcc\4.9.2-atmel3.5.4-arduino2\lib\gcc\avr\4.9.3\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>$(ProjectDir)__vm\.StepperDriver.vsarduino.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <WholeProgramOptimization>false</WholeProgramOptimization>
+      <PreprocessorDefinitions>__AVR_ATtiny45__;__AVR_ATTINY45__;F_CPU=8000000L;ARDUINO=10803;ARDUINO_AVR_ATTINY45AT8;ARDUINO_ARCH_AVR;__cplusplus=201103L;_VMICRO_INTELLISENSE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
     </ClCompile>
     <Link>
       <GenerateDebugInformation>true</GenerateDebugInformation>
