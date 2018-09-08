@@ -22,9 +22,23 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 */
 
+#define BIT(x) (1ULL << x)
+
+#define PHASE_1_1_BIT BIT(2)
+#define PHASE_1_2_BIT BIT(3)
+#define PHASE_2_1_BIT BIT(4)
+#define PHASE_2_2_BIT BIT(5)
+
+#define STEP_BIT BIT(0)
+#define DIR_BIT BIT(1)
 
 void setup() {
-
+	//Input Pins
+	DDRB &= ~(STEP_BIT | DIR_BIT);
+	
+	//Output Pins
+	DDRA |= (PHASE_1_1_BIT | PHASE_1_2_BIT | PHASE_2_1_BIT | PHASE_2_2_BIT);
+	
 }
 
 void loop() {
