@@ -1,3 +1,10 @@
 Targeted specs: (not finalized)
-    Input Voltage: 5V-30V
-    Phase current: 5A
+    Stepper Type:   2 Phase Bipolar
+    Input Voltage:  10V-30V
+    Phase current:  5A
+
+Components: (preliminary)
+    Controller MCU: STM32F373
+    N Channel FET: FDD86369-F085
+    p Channel FET: DMP4051LK3-13
+    
