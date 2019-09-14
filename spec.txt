@@ -1,0 +1,3 @@
+Targeted specs: (not finalized)
+    Input Voltage: 5V-30V
+    Phase current: 5A
