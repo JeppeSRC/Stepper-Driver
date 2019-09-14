@@ -1,4 +1,7 @@
-.vs
-StepperDriver/__vm
-StepperDriver/Debug
-StepperDriver/Release
+kicad/*.bak
+kicad/*.bck
+kicad/*.dcm
+kicad/*.kicad_pcb-bak
+kicad/fp-info-cache
+kicad/StepperDriver-cache.lib
+kicad/_autosave*
