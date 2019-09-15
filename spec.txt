@@ -5,7 +5,8 @@ Targeted specs: (not finalized)
 
 Components: (preliminary)
     Controller MCU: STM32F373
-    N Channel FET: DMG4496SSS (https://www.mouser.se/datasheet/2/115/ds32048-88618.pdf)
-    p Channel FET: FDS4435BZ (https://www.mouser.se/datasheet/2/308/FDS4435BZ-1295162.pdf)
+    N FET: DMG4496SSS (https://www.mouser.se/datasheet/2/115/ds32048-88618.pdf)
+    P FET: FDS4435BZ (https://www.mouser.se/datasheet/2/308/FDS4435BZ-1295162.pdf)
+    Signal Amp: NCS20074 (https://www.mouser.se/datasheet/2/308/NCS20071-D-470030.pdf)
     Current Sense Amp: MCP6L02T-E/SN (https://www.mouser.se/datasheet/2/268/22140a-71218.pdf)
     Current Sense Pot: MCP4251-503E/SL (https://www.mouser.se/datasheet/2/268/22060a-53835.pdf)
