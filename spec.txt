@@ -1,7 +1,7 @@
 Targeted specs: (not finalized)
     Stepper Type:   2 Phase Bipolar
-    Input Voltage:  10V-30V
-    Phase current:  5A
+    Input Voltage:  10-30V
+    Phase current:  0.5-5A
 
 Components: (preliminary)
     Controller MCU: STM32F373
