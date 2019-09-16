@@ -442,23 +442,7 @@ $EndComp
 Wire Wire Line
 	1500 3150 1400 3150
 Wire Wire Line
-	1400 3150 1400 2900
-Wire Wire Line
 	1400 2650 1500 2650
-$Comp
-L power:GND #PWR08
-U 1 1 5D90C866
-P 1400 2900
-F 0 "#PWR08" H 1400 2650 50  0001 C CNN
-F 1 "GND" V 1405 2772 50  0000 R CNN
-F 2 "" H 1400 2900 50  0001 C CNN
-F 3 "" H 1400 2900 50  0001 C CNN
-	1    1400 2900
-	0    1    1    0   
-$EndComp
-Connection ~ 1400 2900
-Wire Wire Line
-	1400 2900 1400 2650
 Text HLabel 1500 2450 0    50   Input ~ 0
 P1_1
 Text HLabel 1500 3350 0    50   Input ~ 0
@@ -488,23 +472,7 @@ $EndComp
 Wire Wire Line
 	4750 2650 4850 2650
 Wire Wire Line
-	4850 2650 4850 2900
-Wire Wire Line
 	4850 3150 4750 3150
-$Comp
-L power:GND #PWR09
-U 1 1 5D9153CB
-P 4850 2900
-F 0 "#PWR09" H 4850 2650 50  0001 C CNN
-F 1 "GND" V 4855 2772 50  0000 R CNN
-F 2 "" H 4850 2900 50  0001 C CNN
-F 3 "" H 4850 2900 50  0001 C CNN
-	1    4850 2900
-	0    -1   -1   0   
-$EndComp
-Connection ~ 4850 2900
-Wire Wire Line
-	4850 2900 4850 3150
 Text HLabel 4750 3350 2    50   Input ~ 0
 P1_4
 Text HLabel 4750 2450 2    50   Input ~ 0
@@ -937,23 +905,7 @@ $EndComp
 Wire Wire Line
 	5650 3150 5550 3150
 Wire Wire Line
-	5550 3150 5550 2900
-Wire Wire Line
 	5550 2650 5650 2650
-$Comp
-L power:GND #PWR010
-U 1 1 5D9A17D2
-P 5550 2900
-F 0 "#PWR010" H 5550 2650 50  0001 C CNN
-F 1 "GND" V 5555 2772 50  0000 R CNN
-F 2 "" H 5550 2900 50  0001 C CNN
-F 3 "" H 5550 2900 50  0001 C CNN
-	1    5550 2900
-	0    1    1    0   
-$EndComp
-Connection ~ 5550 2900
-Wire Wire Line
-	5550 2900 5550 2650
 Text HLabel 5650 2450 0    50   Input ~ 0
 P2_1
 Text HLabel 5650 3350 0    50   Input ~ 0
@@ -983,23 +935,7 @@ $EndComp
 Wire Wire Line
 	8900 2650 9000 2650
 Wire Wire Line
-	9000 2650 9000 2900
-Wire Wire Line
 	9000 3150 8900 3150
-$Comp
-L power:GND #PWR011
-U 1 1 5D9A17EB
-P 9000 2900
-F 0 "#PWR011" H 9000 2650 50  0001 C CNN
-F 1 "GND" V 9005 2772 50  0000 R CNN
-F 2 "" H 9000 2900 50  0001 C CNN
-F 3 "" H 9000 2900 50  0001 C CNN
-	1    9000 2900
-	0    -1   -1   0   
-$EndComp
-Connection ~ 9000 2900
-Wire Wire Line
-	9000 2900 9000 3150
 Text HLabel 8900 3350 2    50   Input ~ 0
 P2_4
 Text HLabel 8900 2450 2    50   Input ~ 0
@@ -1128,4 +1064,68 @@ Text HLabel 6850 2900 0    50   UnSpc ~ 0
 P2.1
 Text HLabel 7700 2900 2    50   UnSpc ~ 0
 P2.2
+Wire Wire Line
+	4850 2650 4850 3150
+Wire Wire Line
+	5550 2650 5550 3150
+Wire Wire Line
+	9000 2650 9000 3150
+Wire Wire Line
+	1400 2650 1400 3150
+$Comp
+L Device:R R?
+U 1 1 5DA16127
+P 5200 1250
+F 0 "R?" H 5270 1296 50  0000 L CNN
+F 1 "100k" H 5270 1205 50  0000 L CNN
+F 2 "" V 5130 1250 50  0001 C CNN
+F 3 "~" H 5200 1250 50  0001 C CNN
+	1    5200 1250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5DA16E3D
+P 5200 1700
+F 0 "R?" H 5270 1746 50  0000 L CNN
+F 1 "100k" H 5270 1655 50  0000 L CNN
+F 2 "" V 5130 1700 50  0001 C CNN
+F 3 "~" H 5200 1700 50  0001 C CNN
+	1    5200 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR?
+U 1 1 5DA17E28
+P 5200 1100
+F 0 "#PWR?" H 5200 950 50  0001 C CNN
+F 1 "+3V3" H 5215 1273 50  0000 C CNN
+F 2 "" H 5200 1100 50  0001 C CNN
+F 3 "" H 5200 1100 50  0001 C CNN
+	1    5200 1100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5DA18E4E
+P 5200 1850
+F 0 "#PWR?" H 5200 1600 50  0001 C CNN
+F 1 "GND" H 5205 1677 50  0000 C CNN
+F 2 "" H 5200 1850 50  0001 C CNN
+F 3 "" H 5200 1850 50  0001 C CNN
+	1    5200 1850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5200 1550 5200 1400
+Text Label 5200 1500 0    50   ~ 0
+SAVref
+Text Label 4850 2950 0    50   ~ 0
+SAVref
+Text Label 5550 2950 2    50   ~ 0
+SAVref
+Text Label 9000 2950 0    50   ~ 0
+SAVref
+Text Label 1400 2900 2    50   ~ 0
+SAVref
 $EndSCHEMATC
