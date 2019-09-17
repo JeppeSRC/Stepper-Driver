@@ -1,6 +1,7 @@
 kicad/*.bak
 kicad/*.bck
 kicad/*.dcm
+kicad/*.sch-bak
 kicad/*.kicad_pcb-bak
 kicad/fp-info-cache
 kicad/StepperDriver-cache.lib
