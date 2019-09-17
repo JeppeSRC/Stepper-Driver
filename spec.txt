@@ -4,7 +4,8 @@ Targeted specs: (not finalized)
     Phase current:  0.5-5A
 
 Components: (preliminary)
-    Controller MCU: STM32F303K
+    3V3 LDO: LD1086DT33TR (https://www.mouser.se/datasheet/2/389/ld1086-974047.pdf)
+    Controller MCU: STM32F303K 
     N FET: DMG4496SSS (https://www.mouser.se/datasheet/2/115/ds32048-88618.pdf)
     P FET: FDS4435BZ (https://www.mouser.se/datasheet/2/308/FDS4435BZ-1295162.pdf)
     Signal Amp: NCS20074 (https://www.mouser.se/datasheet/2/308/NCS20071-D-470030.pdf)
