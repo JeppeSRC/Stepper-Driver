@@ -129,4 +129,81 @@ Text Label 8100 4300 2    50   ~ 0
 MOSI
 Text Label 5050 4400 2    50   ~ 0
 MISO
+$Comp
+L symbols:LD1086 U?
+U 1 1 5D82FE43
+P 2500 1050
+F 0 "U?" H 2500 1315 50  0000 C CNN
+F 1 "LD1086" H 2500 1224 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:TO-252-2" H 2500 450 50  0001 C CNN
+F 3 "https://www.st.com/resource/en/datasheet/ld1086.pdf" H 2500 1050 50  0001 C CNN
+	1    2500 1050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small 10µF
+U 1 1 5D83191F
+P 3000 1150
+F 0 "10µF" H 3092 1196 50  0000 L CNN
+F 1 "C_Small" H 3092 1105 50  0000 L CNN
+F 2 "" H 3000 1150 50  0001 C CNN
+F 3 "~" H 3000 1150 50  0001 C CNN
+	1    3000 1150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small 10µF
+U 1 1 5D832870
+P 2000 1150
+F 0 "10µF" H 1908 1104 50  0000 R CNN
+F 1 "C_Small" H 1908 1195 50  0000 R CNN
+F 2 "" H 2000 1150 50  0001 C CNN
+F 3 "~" H 2000 1150 50  0001 C CNN
+	1    2000 1150
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	2000 1250 2500 1250
+Connection ~ 2500 1250
+Wire Wire Line
+	2500 1250 3000 1250
+Wire Wire Line
+	3000 1050 2800 1050
+Wire Wire Line
+	2000 1050 2200 1050
+$Comp
+L power:+3V3 #PWR?
+U 1 1 5D83382B
+P 3000 1050
+F 0 "#PWR?" H 3000 900 50  0001 C CNN
+F 1 "+3V3" H 3015 1223 50  0000 C CNN
+F 2 "" H 3000 1050 50  0001 C CNN
+F 3 "" H 3000 1050 50  0001 C CNN
+	1    3000 1050
+	1    0    0    -1  
+$EndComp
+Connection ~ 3000 1050
+$Comp
+L power:VDD #PWR?
+U 1 1 5D8344D2
+P 2000 1050
+F 0 "#PWR?" H 2000 900 50  0001 C CNN
+F 1 "VDD" H 2017 1223 50  0000 C CNN
+F 2 "" H 2000 1050 50  0001 C CNN
+F 3 "" H 2000 1050 50  0001 C CNN
+	1    2000 1050
+	1    0    0    -1  
+$EndComp
+Connection ~ 2000 1050
+$Comp
+L power:GND #PWR?
+U 1 1 5D83552C
+P 2500 1250
+F 0 "#PWR?" H 2500 1000 50  0001 C CNN
+F 1 "GND" H 2505 1077 50  0000 C CNN
+F 2 "" H 2500 1250 50  0001 C CNN
+F 3 "" H 2500 1250 50  0001 C CNN
+	1    2500 1250
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
