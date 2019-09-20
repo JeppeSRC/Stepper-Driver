@@ -1041,8 +1041,6 @@ F 3 "~" H 850 1050 50  0001 C CNN
 	1    850  1050
 	1    0    0    1   
 $EndComp
-Text HLabel 1150 750  1    50   UnSpc ~ 0
-Vin
 Wire Wire Line
 	1150 800  1150 750 
 $Comp
@@ -1149,4 +1147,15 @@ Text Notes 5350 1650 0    50   ~ 0
 H Bridge 2
 Wire Notes Line width 10
 	9350 1550 5300 1550
+$Comp
+L power:+3V3 #PWR?
+U 1 1 5D83F2E4
+P 1150 750
+F 0 "#PWR?" H 1150 600 50  0001 C CNN
+F 1 "+3V3" H 1165 923 50  0000 C CNN
+F 2 "" H 1150 750 50  0001 C CNN
+F 3 "" H 1150 750 50  0001 C CNN
+	1    1150 750 
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
