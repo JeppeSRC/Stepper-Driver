@@ -1,6 +1,6 @@
 Targeted specs: (not finalized)
     Stepper Type:   2 Phase Bipolar
-    Input Voltage:  7-20V
+    Input Voltage:  5-15V
     Phase current:  0.5-5A
 
 Components: (preliminary)
@@ -8,6 +8,6 @@ Components: (preliminary)
     Controller MCU: STM32F303K 
     N FET: DMG4496SSS (https://www.mouser.se/datasheet/2/115/ds32048-88618.pdf)
     P FET: FDS4435BZ (https://www.mouser.se/datasheet/2/308/FDS4435BZ-1295162.pdf)
-    Signal Amp: NCS20074 (https://www.mouser.se/datasheet/2/308/NCS20071-D-470030.pdf)
+    FET Driver: DMN3023L-7 (https://www.mouser.se/datasheet/2/115/DMN3023L-959533.pdf)
     Current Sense Amp: MCP6L02T-E/SN (https://www.mouser.se/datasheet/2/268/22140a-71218.pdf)
     Current Sense Pot: MCP4251-503E/SL (https://www.mouser.se/datasheet/2/268/22060a-53835.pdf)
