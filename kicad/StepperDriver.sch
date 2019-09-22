@@ -14,31 +14,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Sheet
-S 8150 3050 750  1800
-U 5D7DF8B7
-F0 "H Bridge" 50
-F1 "H-Bridge.sch" 50
-F2 "Vin" U L 8150 3150 50 
-F3 "Ip1" O L 8150 3300 50 
-F4 "CS" I L 8150 4450 50 
-F5 "SCK" I L 8150 4550 50 
-F6 "SDO" O L 8150 4750 50 
-F7 "SDI" I L 8150 4650 50 
-F8 "P1_1" I L 8150 3550 50 
-F9 "P1_2" I L 8150 3650 50 
-F10 "P1_4" I L 8150 3850 50 
-F11 "P1_3" I L 8150 3750 50 
-F12 "Ip2" O L 8150 3400 50 
-F13 "P2_1" I L 8150 3950 50 
-F14 "P2_2" I L 8150 4050 50 
-F15 "P2_4" I L 8150 4250 50 
-F16 "P2_3" I L 8150 4150 50 
-F17 "P1.1" U R 8900 3150 50 
-F18 "P1.2" U R 8900 3250 50 
-F19 "P2.1" U R 8900 3350 50 
-F20 "P2.2" U R 8900 3450 50 
-$EndSheet
 $Comp
 L MCU_ST_STM32F3:STM32F303K6Tx U?
 U 1 1 5DA02DA8
@@ -54,21 +29,21 @@ Text Label 6150 4100 0    50   ~ 0
 USART_TX
 Text Label 6150 4200 0    50   ~ 0
 USART_RX
-Text Label 8150 3550 2    50   ~ 0
+Text Label 8150 3400 2    50   ~ 0
 P1_1
-Text Label 8150 3650 2    50   ~ 0
+Text Label 8150 3500 2    50   ~ 0
 P1_2
-Text Label 8150 3750 2    50   ~ 0
+Text Label 8150 3600 2    50   ~ 0
 P1_3
-Text Label 8150 3850 2    50   ~ 0
+Text Label 8150 3700 2    50   ~ 0
 P1_4
-Text Label 8150 3950 2    50   ~ 0
+Text Label 8150 3800 2    50   ~ 0
 P2_1
-Text Label 8150 4050 2    50   ~ 0
+Text Label 8150 3900 2    50   ~ 0
 P2_2
-Text Label 8150 4150 2    50   ~ 0
+Text Label 8150 4000 2    50   ~ 0
 P2_3
-Text Label 8150 4250 2    50   ~ 0
+Text Label 8150 4100 2    50   ~ 0
 P2_4
 Text Label 6150 3200 0    50   ~ 0
 P1_1
@@ -78,9 +53,9 @@ Text Label 6150 3400 0    50   ~ 0
 P1_3
 Text Label 6150 3500 0    50   ~ 0
 P1_4
-Text Label 8150 3300 2    50   ~ 0
+Text Label 8150 3150 2    50   ~ 0
 Ip1
-Text Label 8150 3400 2    50   ~ 0
+Text Label 8150 3250 2    50   ~ 0
 Ip2
 Text Label 6150 3900 0    50   ~ 0
 Ip1
@@ -94,19 +69,19 @@ Text Label 6150 3800 0    50   ~ 0
 P2_3
 Text Label 6150 4000 0    50   ~ 0
 P2_4
-Text Label 8150 4450 2    50   ~ 0
+Text Label 8150 4250 2    50   ~ 0
 CS
-Text Label 8150 4550 2    50   ~ 0
+Text Label 8150 4350 2    50   ~ 0
 SCK
 Text Label 5050 4500 2    50   ~ 0
 MOSI
-Text Label 8150 4750 2    50   ~ 0
+Text Label 8150 4550 2    50   ~ 0
 MISO
 Text Label 6150 4700 0    50   ~ 0
 CS
 Text Label 5050 4300 2    50   ~ 0
 SCK
-Text Label 8150 4650 2    50   ~ 0
+Text Label 8150 4450 2    50   ~ 0
 MOSI
 Text Label 5050 4400 2    50   ~ 0
 MISO
@@ -619,4 +594,28 @@ Text Label 1500 1650 0    50   ~ 0
 P2.1
 Text Label 1500 1750 0    50   ~ 0
 P2.2
+$Sheet
+S 8150 3050 750  1600
+U 5D7DF8B7
+F0 "H Bridge" 50
+F1 "H-Bridge.sch" 50
+F2 "Ip1" O L 8150 3150 50 
+F3 "CS" I L 8150 4250 50 
+F4 "SCK" I L 8150 4350 50 
+F5 "SDO" O L 8150 4550 50 
+F6 "SDI" I L 8150 4450 50 
+F7 "P1_1" I L 8150 3400 50 
+F8 "P1_2" I L 8150 3500 50 
+F9 "P1_4" I L 8150 3700 50 
+F10 "P1_3" I L 8150 3600 50 
+F11 "Ip2" O L 8150 3250 50 
+F12 "P2_1" I L 8150 3800 50 
+F13 "P2_2" I L 8150 3900 50 
+F14 "P2_4" I L 8150 4100 50 
+F15 "P2_3" I L 8150 4000 50 
+F16 "P1.1" U R 8900 3150 50 
+F17 "P1.2" U R 8900 3250 50 
+F18 "P2.1" U R 8900 3350 50 
+F19 "P2.2" U R 8900 3450 50 
+$EndSheet
 $EndSCHEMATC
