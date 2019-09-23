@@ -651,7 +651,7 @@ MCU Decoupling
 Text Notes 650  1750 0    50   ~ 10
 Power/Motor Connectors
 Text Notes 650  4050 0    50   ~ 10
-USART Connector
+USART Header
 Text Notes 2050 1750 0    50   ~ 10
 MCU Reset And BOOT0
 Text Label 2650 4050 3    50   ~ 0
