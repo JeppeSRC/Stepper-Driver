@@ -2464,7 +2464,7 @@ Wire Wire Line
 Text Notes 3600 1750 0    50   ~ 10
 Gate Driver
 Text Notes 6700 700  0    50   ~ 10
-H Bridge
+H Bridge Phase 1 And Phase 2
 Text Notes 6700 4250 0    50   ~ 10
 Phase Sense Amp
 NoConn ~ 1950 5100
