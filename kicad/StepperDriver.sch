@@ -2024,7 +2024,7 @@ F 3 "~" H 5550 2150 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:C_Small C?
+L Device:CP_Small C?
 U 1 1 5DA86BF7
 P 5950 2150
 AR Path="/5D7DF8B7/5DA86BF7" Ref="C?"  Part="1" 
@@ -2034,7 +2034,7 @@ F 1 "100µF" V 5812 2150 50  0000 C CNN
 F 2 "" H 5950 2150 50  0001 C CNN
 F 3 "~" H 5950 2150 50  0001 C CNN
 	1    5950 2150
-	0    1    1    0   
+	0    -1   1    0   
 $EndComp
 Wire Wire Line
 	5750 1950 5750 2150
@@ -2153,7 +2153,7 @@ F 3 "~" H 4050 4250 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:C_Small C?
+L Device:CP_Small C?
 U 1 1 5DA86C36
 P 4450 4250
 AR Path="/5D7DF8B7/5DA86C36" Ref="C?"  Part="1" 
@@ -2163,7 +2163,7 @@ F 1 "100µF" V 4312 4250 50  0000 C CNN
 F 2 "" H 4450 4250 50  0001 C CNN
 F 3 "~" H 4450 4250 50  0001 C CNN
 	1    4450 4250
-	0    1    1    0   
+	0    -1   1    0   
 $EndComp
 Wire Wire Line
 	4250 4050 4250 4250
@@ -2282,7 +2282,7 @@ F 3 "~" H 5550 4250 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:C_Small C?
+L Device:CP_Small C?
 U 1 1 5DA86C75
 P 5950 4250
 AR Path="/5D7DF8B7/5DA86C75" Ref="C?"  Part="1" 
@@ -2292,7 +2292,7 @@ F 1 "100µF" V 5812 4250 50  0000 C CNN
 F 2 "" H 5950 4250 50  0001 C CNN
 F 3 "~" H 5950 4250 50  0001 C CNN
 	1    5950 4250
-	0    1    1    0   
+	0    -1   1    0   
 $EndComp
 Wire Wire Line
 	5750 4050 5750 4250
@@ -2461,7 +2461,7 @@ NoConn ~ 3050 5700
 NoConn ~ 3050 5800
 NoConn ~ 3050 5900
 $Comp
-L Device:C_Small C?
+L Device:CP_Small C?
 U 1 1 5DA86BB8
 P 4450 2150
 AR Path="/5D7DF8B7/5DA86BB8" Ref="C?"  Part="1" 
@@ -2471,6 +2471,6 @@ F 1 "100µF" V 4312 2150 50  0000 C CNN
 F 2 "" H 4450 2150 50  0001 C CNN
 F 3 "~" H 4450 2150 50  0001 C CNN
 	1    4450 2150
-	0    1    1    0   
+	0    -1   1    0   
 $EndComp
 $EndSCHEMATC
