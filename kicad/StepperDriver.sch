@@ -684,7 +684,7 @@ AR Path="/5D7DF8B7/5DA8694E" Ref="C?"  Part="1"
 AR Path="/5DA8694E" Ref="C2"  Part="1" 
 F 0 "C2" V 8325 950 50  0000 C CNN
 F 1 "1000µF" V 8234 950 50  0000 C CNN
-F 2 "" H 8100 950 50  0001 C CNN
+F 2 "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm" H 8100 950 50  0001 C CNN
 F 3 "~" H 8100 950 50  0001 C CNN
 	1    8100 950 
 	0    -1   -1   0   
@@ -1150,7 +1150,7 @@ AR Path="/5D7DF8B7/5DA86A39" Ref="C?"  Part="1"
 AR Path="/5DA86A39" Ref="C4"  Part="1" 
 F 0 "C4" V 10625 950 50  0000 C CNN
 F 1 "1000µF" V 10534 950 50  0000 C CNN
-F 2 "" H 10400 950 50  0001 C CNN
+F 2 "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm" H 10400 950 50  0001 C CNN
 F 3 "~" H 10400 950 50  0001 C CNN
 	1    10400 950 
 	0    -1   -1   0   
