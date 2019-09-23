@@ -96,28 +96,6 @@ F 3 "https://www.st.com/resource/en/datasheet/ld1086.pdf" H 4950 1250 50  0001 C
 	1    4950 1250
 	1    0    0    -1  
 $EndComp
-$Comp
-L Device:C_Small 10µF
-U 1 1 5D83191F
-P 5450 1350
-F 0 "10µF" H 5542 1396 50  0000 L CNN
-F 1 "C_Small" H 5542 1305 50  0000 L CNN
-F 2 "" H 5450 1350 50  0001 C CNN
-F 3 "~" H 5450 1350 50  0001 C CNN
-	1    5450 1350
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C_Small 10µF
-U 1 1 5D832870
-P 4450 1350
-F 0 "10µF" H 4358 1304 50  0000 R CNN
-F 1 "C_Small" H 4358 1395 50  0000 R CNN
-F 2 "" H 4450 1350 50  0001 C CNN
-F 3 "~" H 4450 1350 50  0001 C CNN
-	1    4450 1350
-	1    0    0    1   
-$EndComp
 Wire Wire Line
 	4450 1450 4950 1450
 Connection ~ 4950 1450
@@ -618,4 +596,26 @@ F17 "P1.2" U R 8900 3250 50
 F18 "P2.1" U R 8900 3350 50 
 F19 "P2.2" U R 8900 3450 50 
 $EndSheet
+$Comp
+L Device:C_Small C?
+U 1 1 5D832870
+P 4450 1350
+F 0 "C?" H 4358 1304 50  0000 R CNN
+F 1 "C_Small" H 4358 1395 50  0000 R CNN
+F 2 "" H 4450 1350 50  0001 C CNN
+F 3 "~" H 4450 1350 50  0001 C CNN
+	1    4450 1350
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 5D83191F
+P 5450 1350
+F 0 "C?" H 5542 1396 50  0000 L CNN
+F 1 "C_Small" H 5542 1305 50  0000 L CNN
+F 2 "" H 5450 1350 50  0001 C CNN
+F 3 "~" H 5450 1350 50  0001 C CNN
+	1    5450 1350
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
