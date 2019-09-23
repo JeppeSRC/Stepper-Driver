@@ -2467,4 +2467,10 @@ Text Notes 6700 700  0    50   ~ 10
 H Bridge
 Text Notes 6700 4250 0    50   ~ 10
 Phase Sense Amp
+NoConn ~ 1950 5100
+NoConn ~ 1950 5200
+NoConn ~ 3050 5600
+NoConn ~ 3050 5700
+NoConn ~ 3050 5800
+NoConn ~ 3050 5900
 $EndSCHEMATC
