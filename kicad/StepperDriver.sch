@@ -2473,4 +2473,58 @@ F 3 "~" H 4450 2150 50  0001 C CNN
 	1    4450 2150
 	0    -1   1    0   
 $EndComp
+$Comp
+L Device:D_Zener D?
+U 1 1 5DD9C385
+P 850 5550
+F 0 "D?" V 804 5629 50  0000 L CNN
+F 1 "SMAJ16A" V 895 5629 50  0000 L CNN
+F 2 "Diode_SMD:D_SMA_Handsoldering" H 850 5550 50  0001 C CNN
+F 3 "~" H 850 5550 50  0001 C CNN
+	1    850  5550
+	0    1    1    0   
+$EndComp
+$Comp
+L power:VDD #PWR?
+U 1 1 5DD9D3D2
+P 850 5400
+F 0 "#PWR?" H 850 5250 50  0001 C CNN
+F 1 "VDD" H 867 5573 50  0000 C CNN
+F 2 "" H 850 5400 50  0001 C CNN
+F 3 "" H 850 5400 50  0001 C CNN
+	1    850  5400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5DDC0478
+P 850 5850
+F 0 "R?" H 920 5896 50  0000 L CNN
+F 1 "10R" H 920 5805 50  0000 L CNN
+F 2 "" V 780 5850 50  0001 C CNN
+F 3 "~" H 850 5850 50  0001 C CNN
+	1    850  5850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5DDC2421
+P 850 6000
+F 0 "#PWR?" H 850 5750 50  0001 C CNN
+F 1 "GND" H 855 5827 50  0000 C CNN
+F 2 "" H 850 6000 50  0001 C CNN
+F 3 "" H 850 6000 50  0001 C CNN
+	1    850  6000
+	1    0    0    -1  
+$EndComp
+Wire Notes Line width 10
+	600  6250 1300 6250
+Wire Notes Line width 10
+	600  5000 1300 5000
+Wire Notes Line width 10
+	1300 5000 1300 6250
+Text Notes 650  5100 0    50   ~ 10
+Snubber
+Wire Notes Line width 10
+	600  5000 600  6250
 $EndSCHEMATC
