@@ -934,22 +934,19 @@ F 3 "https://www.mouser.se/datasheet/2/268/22060a-53835.pdf" H 8050 5600 50  000
 	1    7900 5750
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	8300 5500 8450 5500
 $Comp
 L power:GND #PWR?
 U 1 1 5DA869CE
-P 8450 5600
+P 8400 5650
 AR Path="/5D7DF8B7/5DA869CE" Ref="#PWR?"  Part="1" 
 AR Path="/5DA869CE" Ref="#PWR044"  Part="1" 
-F 0 "#PWR044" H 8450 5350 50  0001 C CNN
-F 1 "GND" H 8455 5427 50  0000 C CNN
-F 2 "" H 8450 5600 50  0001 C CNN
-F 3 "" H 8450 5600 50  0001 C CNN
-	1    8450 5600
+F 0 "#PWR044" H 8400 5400 50  0001 C CNN
+F 1 "GND" H 8405 5477 50  0000 C CNN
+F 2 "" H 8400 5650 50  0001 C CNN
+F 3 "" H 8400 5650 50  0001 C CNN
+	1    8400 5650
 	1    0    0    -1  
 $EndComp
-NoConn ~ 8300 5600
 $Comp
 L power:+3V3 #PWR?
 U 1 1 5DA869D5
@@ -1018,20 +1015,17 @@ Wire Wire Line
 Wire Wire Line
 	7400 5650 7500 5650
 Connection ~ 6800 5350
-Wire Wire Line
-	8300 6000 8450 6000
-NoConn ~ 8300 6100
 $Comp
 L power:GND #PWR?
 U 1 1 5DA869FD
-P 8450 6100
+P 8400 6150
 AR Path="/5D7DF8B7/5DA869FD" Ref="#PWR?"  Part="1" 
 AR Path="/5DA869FD" Ref="#PWR047"  Part="1" 
-F 0 "#PWR047" H 8450 5850 50  0001 C CNN
-F 1 "GND" H 8455 5927 50  0000 C CNN
-F 2 "" H 8450 6100 50  0001 C CNN
-F 3 "" H 8450 6100 50  0001 C CNN
-	1    8450 6100
+F 0 "#PWR047" H 8400 5900 50  0001 C CNN
+F 1 "GND" H 8405 5977 50  0000 C CNN
+F 2 "" H 8400 6150 50  0001 C CNN
+F 3 "" H 8400 6150 50  0001 C CNN
+	1    8400 6150
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -1767,15 +1761,7 @@ F 3 "http://www.onsemi.com/pub/Collateral/FAN3268T_F085-D.PDF" H 4250 3150 50  0
 	1    4250 3050
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	8600 5250 8600 5400
-Wire Wire Line
-	8300 5400 8600 5400
 Connection ~ 8600 5250
-Wire Wire Line
-	8450 5500 8450 5600
-Wire Wire Line
-	8450 6000 8450 6100
 Text Label 7800 4000 1    50   ~ 0
 P1_SENSE
 Wire Wire Line
@@ -1822,10 +1808,6 @@ Wire Wire Line
 	9850 5250 9750 5250
 Wire Wire Line
 	9750 5250 9750 4900
-Wire Wire Line
-	10350 5250 10350 5900
-Wire Wire Line
-	10350 5900 8300 5900
 Connection ~ 10350 5250
 $Comp
 L power:GND #PWR?
@@ -2527,4 +2509,22 @@ Text Notes 650  5100 0    50   ~ 10
 Snubber
 Wire Notes Line width 10
 	600  5000 600  6250
+Wire Wire Line
+	8400 5650 8400 5600
+Wire Wire Line
+	8400 5600 8300 5600
+Wire Wire Line
+	8400 6150 8400 6100
+Wire Wire Line
+	8400 6100 8300 6100
+Wire Wire Line
+	8600 5500 8300 5500
+Wire Wire Line
+	8600 5250 8600 5500
+Wire Wire Line
+	8300 6000 10350 6000
+Wire Wire Line
+	10350 5250 10350 6000
+NoConn ~ 8300 5900
+NoConn ~ 8300 5400
 $EndSCHEMATC
