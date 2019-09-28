@@ -454,7 +454,7 @@ Wire Wire Line
 Wire Wire Line
 	1050 4500 1050 4600
 $Comp
-L Connector_Generic:Conn_01x02 J3
+L Connector:Screw_Terminal_01x02 J3
 U 1 1 5DB76161
 P 850 3250
 F 0 "J3" H 768 2925 50  0000 C CNN
