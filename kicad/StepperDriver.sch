@@ -519,24 +519,13 @@ F 3 "" H 1250 2900 50  0001 C CNN
 	1    1250 2900
 	1    0    0    -1  
 $EndComp
-$Comp
-L Connector_Generic:Conn_01x04 J2
-U 1 1 5DB81279
-P 850 2350
-F 0 "J2" H 768 1925 50  0000 C CNN
-F 1 "Motor" H 768 2016 50  0000 C CNN
-F 2 "" H 850 2350 50  0001 C CNN
-F 3 "~" H 850 2350 50  0001 C CNN
-	1    850  2350
-	-1   0    0    1   
-$EndComp
-Text Label 1050 2150 0    50   ~ 0
+Text Label 1050 2050 0    50   ~ 0
 P1.1
-Text Label 1050 2250 0    50   ~ 0
+Text Label 1050 2150 0    50   ~ 0
 P1.2
-Text Label 1050 2350 0    50   ~ 0
+Text Label 1050 2500 0    50   ~ 0
 P2.1
-Text Label 1050 2450 0    50   ~ 0
+Text Label 1050 2600 0    50   ~ 0
 P2.2
 $Comp
 L Device:C_Small C7
@@ -2586,4 +2575,26 @@ Wire Wire Line
 	10350 5250 10350 6000
 NoConn ~ 8300 5900
 NoConn ~ 8300 5400
+$Comp
+L Connector:Screw_Terminal_01x02 J?
+U 1 1 5DE99FF6
+P 850 2150
+F 0 "J?" H 768 1825 50  0000 C CNN
+F 1 "Phase 1" H 768 1916 50  0000 C CNN
+F 2 "" H 850 2150 50  0001 C CNN
+F 3 "~" H 850 2150 50  0001 C CNN
+	1    850  2150
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:Screw_Terminal_01x02 J?
+U 1 1 5DEA7910
+P 850 2600
+F 0 "J?" H 768 2275 50  0000 C CNN
+F 1 "Phase 2" H 768 2366 50  0000 C CNN
+F 2 "" H 850 2600 50  0001 C CNN
+F 3 "~" H 850 2600 50  0001 C CNN
+	1    850  2600
+	-1   0    0    1   
+$EndComp
 $EndSCHEMATC
