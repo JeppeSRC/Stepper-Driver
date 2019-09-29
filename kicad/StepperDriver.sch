@@ -40,8 +40,6 @@ Text Label 3050 4800 0    50   ~ 0
 P1_4
 Text Label 3050 5200 0    50   ~ 0
 IP2
-Text Label 1950 5400 2    50   ~ 0
-IP2
 Text Label 3050 4900 0    50   ~ 0
 P2_1
 Text Label 3050 5000 0    50   ~ 0
@@ -295,8 +293,6 @@ F 3 "" H 6050 1300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Connection ~ 6050 1300
-Text Label 1950 5500 2    50   ~ 0
-IN_PWR
 $Comp
 L Switch:SW_Push SW1
 U 1 1 5DB5ED2A
@@ -2601,4 +2597,70 @@ F 4 "20020327-C021B01LF" H 850 2600 50  0001 C CNN "MPN"
 	1    850  2600
 	-1   0    0    1   
 $EndComp
+$Comp
+L power:PWR_FLAG #FLG0101
+U 1 1 5DECFBFE
+P 3700 1100
+F 0 "#FLG0101" H 3700 1175 50  0001 C CNN
+F 1 "PWR_FLAG" V 3700 1228 50  0000 L CNN
+F 2 "" H 3700 1100 50  0001 C CNN
+F 3 "~" H 3700 1100 50  0001 C CNN
+	1    3700 1100
+	1    0    0    -1  
+$EndComp
+Text Label 1950 5400 2    50   ~ 0
+IP2
+Text Label 1950 5500 2    50   ~ 0
+IN_PWR
+$Comp
+L power:PWR_FLAG #FLG0102
+U 1 1 5DEDAC71
+P 5700 1100
+F 0 "#FLG0102" H 5700 1175 50  0001 C CNN
+F 1 "PWR_FLAG" V 5700 1228 50  0000 L CNN
+F 2 "" H 5700 1100 50  0001 C CNN
+F 3 "~" H 5700 1100 50  0001 C CNN
+	1    5700 1100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x04_Male J6
+U 1 1 5DEEB7FF
+P 750 6800
+F 0 "J6" H 850 7150 50  0000 C CNN
+F 1 "Control IO" H 850 7050 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 750 6800 50  0001 C CNN
+F 3 "~" H 750 6800 50  0001 C CNN
+	1    750  6800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR051
+U 1 1 5DEEDC1C
+P 1050 7100
+F 0 "#PWR051" H 1050 6850 50  0001 C CNN
+F 1 "GND" H 1055 6927 50  0000 C CNN
+F 2 "" H 1050 7100 50  0001 C CNN
+F 3 "" H 1050 7100 50  0001 C CNN
+	1    1050 7100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	950  7000 1050 7000
+Wire Wire Line
+	1050 7000 1050 7100
+Text Label 950  6700 0    50   ~ 0
+IN_STEP
+Text Label 950  6800 0    50   ~ 0
+IN_DIR
+Text Label 950  6900 0    50   ~ 0
+IN_PWR
+Wire Notes Line width 10
+	600  6350 600  7350
+Wire Notes Line width 10
+	600  7350 1350 7350
+Wire Notes Line width 10
+	1350 7350 1350 6350
+Wire Notes Line width 10
+	1350 6350 600  6350
 $EndSCHEMATC
