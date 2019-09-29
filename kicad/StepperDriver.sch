@@ -2477,8 +2477,6 @@ Wire Wire Line
 Wire Wire Line
 	9650 2000 9450 2000
 Wire Wire Line
-	9850 2000 10300 2000
-Wire Wire Line
 	10500 2000 10700 2000
 Text Notes 3600 1750 0    50   ~ 10
 Gate Driver
