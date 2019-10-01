@@ -293,6 +293,7 @@ F 0 "SW1" H 2450 3585 50  0000 C CNN
 F 1 "Reset" H 2450 3494 50  0000 C CNN
 F 2 "footprints:LL3301NF065QG" H 2450 3500 50  0001 C CNN
 F 3 "https://www.mouser.se/datasheet/2/140/P090002-267756.pdf" H 2450 3500 50  0001 C CNN
+F 4 "LL3301NF065QG" H 2450 3300 50  0001 C CNN "MPN"
 	1    2450 3300
 	1    0    0    -1  
 $EndComp
@@ -1021,9 +1022,10 @@ P 9950 2700
 AR Path="/5D7DF8B7/5DA86A2E" Ref="R?"  Part="1" 
 AR Path="/5DA86A2E" Ref="R4"  Part="1" 
 F 0 "R4" V 10050 2700 50  0000 C CNN
-F 1 "2R" V 9950 2700 50  0000 C CNN
+F 1 "1R" V 9950 2700 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 9880 2700 50  0001 C CNN
-F 3 "~" H 9950 2700 50  0001 C CNN
+F 3 "https://www.mouser.se/datasheet/2/348/esr-e-1139161.pdf" H 9950 2700 50  0001 C CNN
+F 4 "ESR10EZPJ1R0" H 9950 2700 50  0001 C CNN "MPN"
 	1    9950 2700
 	0    -1   -1   0   
 $EndComp
@@ -1287,9 +1289,10 @@ P 9950 2900
 AR Path="/5D7DF8B7/5DA86AAF" Ref="R?"  Part="1" 
 AR Path="/5DA86AAF" Ref="R8"  Part="1" 
 F 0 "R8" V 10050 2900 50  0000 C CNN
-F 1 "2R" V 9950 2900 50  0000 C CNN
+F 1 "1R" V 9950 2900 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 9880 2900 50  0001 C CNN
-F 3 "~" H 9950 2900 50  0001 C CNN
+F 3 "https://www.mouser.se/datasheet/2/348/esr-e-1139161.pdf" H 9950 2900 50  0001 C CNN
+F 4 "ESR10EZPJ1R0" H 9950 2900 50  0001 C CNN "MPN"
 	1    9950 2900
 	0    -1   -1   0   
 $EndComp
@@ -1300,9 +1303,10 @@ P 9950 3100
 AR Path="/5D7DF8B7/5DA86AB5" Ref="R?"  Part="1" 
 AR Path="/5DA86AB5" Ref="R12"  Part="1" 
 F 0 "R12" V 10050 3100 50  0000 C CNN
-F 1 "2R" V 9950 3100 50  0000 C CNN
+F 1 "1R" V 9950 3100 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 9880 3100 50  0001 C CNN
-F 3 "~" H 9950 3100 50  0001 C CNN
+F 3 "https://www.mouser.se/datasheet/2/348/esr-e-1139161.pdf" H 9950 3100 50  0001 C CNN
+F 4 "ESR10EZPJ1R0" H 9950 3100 50  0001 C CNN "MPN"
 	1    9950 3100
 	0    -1   -1   0   
 $EndComp
@@ -1313,9 +1317,10 @@ P 9950 3300
 AR Path="/5D7DF8B7/5DA86ABB" Ref="R?"  Part="1" 
 AR Path="/5DA86ABB" Ref="R17"  Part="1" 
 F 0 "R17" V 10050 3300 50  0000 C CNN
-F 1 "2R" V 9950 3300 50  0000 C CNN
+F 1 "1R" V 9950 3300 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 9880 3300 50  0001 C CNN
-F 3 "~" H 9950 3300 50  0001 C CNN
+F 3 "https://www.mouser.se/datasheet/2/348/esr-e-1139161.pdf" H 9950 3300 50  0001 C CNN
+F 4 "ESR10EZPJ1R0" H 9950 3300 50  0001 C CNN "MPN"
 	1    9950 3300
 	0    -1   -1   0   
 $EndComp
@@ -1326,9 +1331,10 @@ P 9950 3500
 AR Path="/5D7DF8B7/5DA86AC1" Ref="R?"  Part="1" 
 AR Path="/5DA86AC1" Ref="R21"  Part="1" 
 F 0 "R21" V 10050 3500 50  0000 C CNN
-F 1 "2R" V 9950 3500 50  0000 C CNN
+F 1 "1R" V 9950 3500 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 9880 3500 50  0001 C CNN
-F 3 "~" H 9950 3500 50  0001 C CNN
+F 3 "https://www.mouser.se/datasheet/2/348/esr-e-1139161.pdf" H 9950 3500 50  0001 C CNN
+F 4 "ESR10EZPJ1R0" H 9950 3500 50  0001 C CNN "MPN"
 	1    9950 3500
 	0    -1   -1   0   
 $EndComp
@@ -1339,9 +1345,10 @@ P 10250 2700
 AR Path="/5D7DF8B7/5DA86AC7" Ref="R?"  Part="1" 
 AR Path="/5DA86AC7" Ref="R5"  Part="1" 
 F 0 "R5" V 10350 2700 50  0000 C CNN
-F 1 "2R" V 10250 2700 50  0000 C CNN
+F 1 "1R" V 10250 2700 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 10180 2700 50  0001 C CNN
-F 3 "~" H 10250 2700 50  0001 C CNN
+F 3 "https://www.mouser.se/datasheet/2/348/esr-e-1139161.pdf" H 10250 2700 50  0001 C CNN
+F 4 "ESR10EZPJ1R0" H 10250 2700 50  0001 C CNN "MPN"
 	1    10250 2700
 	0    -1   -1   0   
 $EndComp
@@ -1352,9 +1359,10 @@ P 10250 2900
 AR Path="/5D7DF8B7/5DA86ACD" Ref="R?"  Part="1" 
 AR Path="/5DA86ACD" Ref="R9"  Part="1" 
 F 0 "R9" V 10350 2900 50  0000 C CNN
-F 1 "2R" V 10250 2900 50  0000 C CNN
+F 1 "1R" V 10250 2900 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 10180 2900 50  0001 C CNN
-F 3 "~" H 10250 2900 50  0001 C CNN
+F 3 "https://www.mouser.se/datasheet/2/348/esr-e-1139161.pdf" H 10250 2900 50  0001 C CNN
+F 4 "ESR10EZPJ1R0" H 10250 2900 50  0001 C CNN "MPN"
 	1    10250 2900
 	0    -1   -1   0   
 $EndComp
@@ -1365,9 +1373,10 @@ P 10250 3100
 AR Path="/5D7DF8B7/5DA86AD3" Ref="R?"  Part="1" 
 AR Path="/5DA86AD3" Ref="R13"  Part="1" 
 F 0 "R13" V 10350 3100 50  0000 C CNN
-F 1 "2R" V 10250 3100 50  0000 C CNN
+F 1 "1R" V 10250 3100 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 10180 3100 50  0001 C CNN
-F 3 "~" H 10250 3100 50  0001 C CNN
+F 3 "https://www.mouser.se/datasheet/2/348/esr-e-1139161.pdf" H 10250 3100 50  0001 C CNN
+F 4 "ESR10EZPJ1R0" H 10250 3100 50  0001 C CNN "MPN"
 	1    10250 3100
 	0    -1   -1   0   
 $EndComp
@@ -1378,9 +1387,10 @@ P 10250 3300
 AR Path="/5D7DF8B7/5DA86AD9" Ref="R?"  Part="1" 
 AR Path="/5DA86AD9" Ref="R18"  Part="1" 
 F 0 "R18" V 10350 3300 50  0000 C CNN
-F 1 "2R" V 10250 3300 50  0000 C CNN
+F 1 "1R" V 10250 3300 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 10180 3300 50  0001 C CNN
-F 3 "~" H 10250 3300 50  0001 C CNN
+F 3 "https://www.mouser.se/datasheet/2/348/esr-e-1139161.pdf" H 10250 3300 50  0001 C CNN
+F 4 "ESR10EZPJ1R0" H 10250 3300 50  0001 C CNN "MPN"
 	1    10250 3300
 	0    -1   -1   0   
 $EndComp
@@ -1391,9 +1401,10 @@ P 10250 3500
 AR Path="/5D7DF8B7/5DA86ADF" Ref="R?"  Part="1" 
 AR Path="/5DA86ADF" Ref="R22"  Part="1" 
 F 0 "R22" V 10350 3500 50  0000 C CNN
-F 1 "2R" V 10250 3500 50  0000 C CNN
+F 1 "1R" V 10250 3500 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 10180 3500 50  0001 C CNN
-F 3 "~" H 10250 3500 50  0001 C CNN
+F 3 "https://www.mouser.se/datasheet/2/348/esr-e-1139161.pdf" H 10250 3500 50  0001 C CNN
+F 4 "ESR10EZPJ1R0" H 10250 3500 50  0001 C CNN "MPN"
 	1    10250 3500
 	0    -1   -1   0   
 $EndComp
@@ -1465,9 +1476,10 @@ P 7650 2700
 AR Path="/5D7DF8B7/5DA86B08" Ref="R?"  Part="1" 
 AR Path="/5DA86B08" Ref="R2"  Part="1" 
 F 0 "R2" V 7750 2700 50  0000 C CNN
-F 1 "2R" V 7650 2700 50  0000 C CNN
+F 1 "1R" V 7650 2700 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 7580 2700 50  0001 C CNN
-F 3 "~" H 7650 2700 50  0001 C CNN
+F 3 "https://www.mouser.se/datasheet/2/348/esr-e-1139161.pdf" H 7650 2700 50  0001 C CNN
+F 4 "ESR10EZPJ1R0" H 7650 2700 50  0001 C CNN "MPN"
 	1    7650 2700
 	0    -1   -1   0   
 $EndComp
@@ -1480,9 +1492,10 @@ P 7650 2900
 AR Path="/5D7DF8B7/5DA86B0F" Ref="R?"  Part="1" 
 AR Path="/5DA86B0F" Ref="R6"  Part="1" 
 F 0 "R6" V 7750 2900 50  0000 C CNN
-F 1 "2R" V 7650 2900 50  0000 C CNN
+F 1 "1R" V 7650 2900 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 7580 2900 50  0001 C CNN
-F 3 "~" H 7650 2900 50  0001 C CNN
+F 3 "https://www.mouser.se/datasheet/2/348/esr-e-1139161.pdf" H 7650 2900 50  0001 C CNN
+F 4 "ESR10EZPJ1R0" H 7650 2900 50  0001 C CNN "MPN"
 	1    7650 2900
 	0    -1   -1   0   
 $EndComp
@@ -1493,9 +1506,10 @@ P 7650 3100
 AR Path="/5D7DF8B7/5DA86B15" Ref="R?"  Part="1" 
 AR Path="/5DA86B15" Ref="R10"  Part="1" 
 F 0 "R10" V 7750 3100 50  0000 C CNN
-F 1 "2R" V 7650 3100 50  0000 C CNN
+F 1 "1R" V 7650 3100 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 7580 3100 50  0001 C CNN
-F 3 "~" H 7650 3100 50  0001 C CNN
+F 3 "https://www.mouser.se/datasheet/2/348/esr-e-1139161.pdf" H 7650 3100 50  0001 C CNN
+F 4 "ESR10EZPJ1R0" H 7650 3100 50  0001 C CNN "MPN"
 	1    7650 3100
 	0    -1   -1   0   
 $EndComp
@@ -1506,9 +1520,10 @@ P 7650 3300
 AR Path="/5D7DF8B7/5DA86B1B" Ref="R?"  Part="1" 
 AR Path="/5DA86B1B" Ref="R15"  Part="1" 
 F 0 "R15" V 7750 3300 50  0000 C CNN
-F 1 "2R" V 7650 3300 50  0000 C CNN
+F 1 "1R" V 7650 3300 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 7580 3300 50  0001 C CNN
-F 3 "~" H 7650 3300 50  0001 C CNN
+F 3 "https://www.mouser.se/datasheet/2/348/esr-e-1139161.pdf" H 7650 3300 50  0001 C CNN
+F 4 "ESR10EZPJ1R0" H 7650 3300 50  0001 C CNN "MPN"
 	1    7650 3300
 	0    -1   -1   0   
 $EndComp
@@ -1519,9 +1534,10 @@ P 7650 3500
 AR Path="/5D7DF8B7/5DA86B21" Ref="R?"  Part="1" 
 AR Path="/5DA86B21" Ref="R19"  Part="1" 
 F 0 "R19" V 7750 3500 50  0000 C CNN
-F 1 "2R" V 7650 3500 50  0000 C CNN
+F 1 "1R" V 7650 3500 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 7580 3500 50  0001 C CNN
-F 3 "~" H 7650 3500 50  0001 C CNN
+F 3 "https://www.mouser.se/datasheet/2/348/esr-e-1139161.pdf" H 7650 3500 50  0001 C CNN
+F 4 "ESR10EZPJ1R0" H 7650 3500 50  0001 C CNN "MPN"
 	1    7650 3500
 	0    -1   -1   0   
 $EndComp
@@ -1532,9 +1548,10 @@ P 7950 2700
 AR Path="/5D7DF8B7/5DA86B27" Ref="R?"  Part="1" 
 AR Path="/5DA86B27" Ref="R3"  Part="1" 
 F 0 "R3" V 8050 2700 50  0000 C CNN
-F 1 "2R" V 7950 2700 50  0000 C CNN
+F 1 "1R" V 7950 2700 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 7880 2700 50  0001 C CNN
-F 3 "~" H 7950 2700 50  0001 C CNN
+F 3 "https://www.mouser.se/datasheet/2/348/esr-e-1139161.pdf" H 7950 2700 50  0001 C CNN
+F 4 "ESR10EZPJ1R0" H 7950 2700 50  0001 C CNN "MPN"
 	1    7950 2700
 	0    -1   -1   0   
 $EndComp
@@ -1545,9 +1562,10 @@ P 7950 2900
 AR Path="/5D7DF8B7/5DA86B2D" Ref="R?"  Part="1" 
 AR Path="/5DA86B2D" Ref="R7"  Part="1" 
 F 0 "R7" V 8050 2900 50  0000 C CNN
-F 1 "2R" V 7950 2900 50  0000 C CNN
+F 1 "1R" V 7950 2900 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 7880 2900 50  0001 C CNN
-F 3 "~" H 7950 2900 50  0001 C CNN
+F 3 "https://www.mouser.se/datasheet/2/348/esr-e-1139161.pdf" H 7950 2900 50  0001 C CNN
+F 4 "ESR10EZPJ1R0" H 7950 2900 50  0001 C CNN "MPN"
 	1    7950 2900
 	0    -1   -1   0   
 $EndComp
@@ -1558,9 +1576,10 @@ P 7950 3100
 AR Path="/5D7DF8B7/5DA86B33" Ref="R?"  Part="1" 
 AR Path="/5DA86B33" Ref="R11"  Part="1" 
 F 0 "R11" V 8050 3100 50  0000 C CNN
-F 1 "2R" V 7950 3100 50  0000 C CNN
+F 1 "1R" V 7950 3100 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 7880 3100 50  0001 C CNN
-F 3 "~" H 7950 3100 50  0001 C CNN
+F 3 "https://www.mouser.se/datasheet/2/348/esr-e-1139161.pdf" H 7950 3100 50  0001 C CNN
+F 4 "ESR10EZPJ1R0" H 7950 3100 50  0001 C CNN "MPN"
 	1    7950 3100
 	0    -1   -1   0   
 $EndComp
@@ -1571,9 +1590,10 @@ P 7950 3300
 AR Path="/5D7DF8B7/5DA86B39" Ref="R?"  Part="1" 
 AR Path="/5DA86B39" Ref="R16"  Part="1" 
 F 0 "R16" V 8050 3300 50  0000 C CNN
-F 1 "2R" V 7950 3300 50  0000 C CNN
+F 1 "1R" V 7950 3300 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 7880 3300 50  0001 C CNN
-F 3 "~" H 7950 3300 50  0001 C CNN
+F 3 "https://www.mouser.se/datasheet/2/348/esr-e-1139161.pdf" H 7950 3300 50  0001 C CNN
+F 4 "ESR10EZPJ1R0" H 7950 3300 50  0001 C CNN "MPN"
 	1    7950 3300
 	0    -1   -1   0   
 $EndComp
@@ -1584,9 +1604,10 @@ P 7950 3500
 AR Path="/5D7DF8B7/5DA86B3F" Ref="R?"  Part="1" 
 AR Path="/5DA86B3F" Ref="R20"  Part="1" 
 F 0 "R20" V 8050 3500 50  0000 C CNN
-F 1 "2R" V 7950 3500 50  0000 C CNN
+F 1 "1R" V 7950 3500 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 7880 3500 50  0001 C CNN
-F 3 "~" H 7950 3500 50  0001 C CNN
+F 3 "https://www.mouser.se/datasheet/2/348/esr-e-1139161.pdf" H 7950 3500 50  0001 C CNN
+F 4 "ESR10EZPJ1R0" H 7950 3500 50  0001 C CNN "MPN"
 	1    7950 3500
 	0    -1   -1   0   
 $EndComp
