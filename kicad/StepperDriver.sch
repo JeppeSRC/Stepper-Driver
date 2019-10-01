@@ -48,18 +48,6 @@ Text Label 3050 5100 0    50   ~ 0
 P2_3
 Text Label 3050 5300 0    50   ~ 0
 P2_4
-$Comp
-L symbols:LD1086 U1
-U 1 1 5D82FE43
-P 1650 1000
-F 0 "U1" H 1650 1265 50  0000 C CNN
-F 1 "LD1086" H 1650 1174 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:TO-252-2" H 1650 400 50  0001 C CNN
-F 3 "https://www.st.com/resource/en/datasheet/ld1086.pdf" H 1650 1000 50  0001 C CNN
-F 4 "LD1086DT33TR" H 1650 1000 50  0001 C CNN "MPN"
-	1    1650 1000
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	1150 1200 1650 1200
 Connection ~ 1650 1200
@@ -415,35 +403,33 @@ BOOT0
 Text Label 1950 4500 2    50   ~ 0
 RST
 $Comp
-L Connector:Conn_01x03_Male J5
+L Connector:Conn_01x04_Male J5
 U 1 1 5DB6FB0C
 P 800 4400
 F 0 "J5" H 908 4681 50  0000 C CNN
 F 1 "USART" H 908 4590 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 800 4400 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 800 4400 50  0001 C CNN
 F 3 "~" H 800 4400 50  0001 C CNN
 	1    800  4400
 	1    0    0    -1  
 $EndComp
-Text Label 1000 4300 0    50   ~ 0
-USART_TX
 Text Label 1000 4400 0    50   ~ 0
+USART_TX
+Text Label 1000 4500 0    50   ~ 0
 USART_RX
 $Comp
 L power:GND #PWR040
 U 1 1 5DB71D3F
-P 1050 4600
-F 0 "#PWR040" H 1050 4350 50  0001 C CNN
-F 1 "GND" H 1055 4427 50  0000 C CNN
-F 2 "" H 1050 4600 50  0001 C CNN
-F 3 "" H 1050 4600 50  0001 C CNN
-	1    1050 4600
+P 1050 4650
+F 0 "#PWR040" H 1050 4400 50  0001 C CNN
+F 1 "GND" H 1055 4477 50  0000 C CNN
+F 2 "" H 1050 4650 50  0001 C CNN
+F 3 "" H 1050 4650 50  0001 C CNN
+	1    1050 4650
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1000 4500 1050 4500
-Wire Wire Line
-	1050 4500 1050 4600
+	1000 4600 1050 4600
 $Comp
 L Connector:Screw_Terminal_01x02 J4
 U 1 1 5DB76161
@@ -523,10 +509,10 @@ L Device:C_Small C7
 U 1 1 5D83191F
 P 2150 1100
 F 0 "C7" H 2242 1146 50  0000 L CNN
-F 1 "10µF" H 2242 1055 50  0000 L CNN
+F 1 "1µF" H 2242 1055 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 2150 1100 50  0001 C CNN
-F 3 "https://www.mouser.se/datasheet/2/396/taiyo_yuden_12132018_mlcc11_hq_e-1510082.pdf" H 2150 1100 50  0001 C CNN
-F 4 "TMK212BBJ106MGHT" H 2150 1100 50  0001 C CNN "MPN"
+F 3 "https://www.mouser.se/datasheet/2/396/mlcc02_e-1307760.pdf" H 2150 1100 50  0001 C CNN
+F 4 "TMK212B7105KG-T" H 2150 1100 50  0001 C CNN "MPN"
 	1    2150 1100
 	1    0    0    -1  
 $EndComp
@@ -535,22 +521,22 @@ L Device:C_Small C6
 U 1 1 5D832870
 P 1150 1100
 F 0 "C6" H 1350 1050 50  0000 R CNN
-F 1 "10µF" H 1450 1150 50  0000 R CNN
+F 1 "1µF" H 1450 1150 50  0000 R CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 1150 1100 50  0001 C CNN
-F 3 "https://www.mouser.se/datasheet/2/396/taiyo_yuden_12132018_mlcc11_hq_e-1510082.pdf" H 1150 1100 50  0001 C CNN
-F 4 "TMK212BBJ106MGHT" H 1150 1100 50  0001 C CNN "MPN"
+F 3 "https://www.mouser.se/datasheet/2/396/mlcc02_e-1307760.pdf" H 1150 1100 50  0001 C CNN
+F 4 "TMK212B7105KG-T" H 1150 1100 50  0001 C CNN "MPN"
 	1    1150 1100
 	1    0    0    1   
 $EndComp
 $Comp
-L Device:CP_Small C5
+L Device:C_Small C5
 U 1 1 5D898394
 P 750 1100
 F 0 "C5" H 662 1146 50  0000 R CNN
-F 1 "100µF" H 650 1050 50  0000 R CNN
-F 2 "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm" H 750 1100 50  0001 C CNN
-F 3 "https://www.mouser.se/datasheet/2/231/144194369515-773075.pdf" H 750 1100 50  0001 C CNN
-F 4 "RGA101M1EBK-0611G" H 750 1100 50  0001 C CNN "MPN"
+F 1 "10µF" H 650 1050 50  0000 R CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 750 1100 50  0001 C CNN
+F 3 "https://www.mouser.se/datasheet/2/396/taiyo_yuden_12132018_mlcc11_hq_e-1510082.pdf" H 750 1100 50  0001 C CNN
+F 4 "TMK212BBJ106MGHT" H 750 1100 50  0001 C CNN "MPN"
 	1    750  1100
 	-1   0    0    -1  
 $EndComp
@@ -2561,4 +2547,20 @@ Wire Wire Line
 Wire Wire Line
 	10250 5650 10250 5100
 Connection ~ 10250 5100
+Wire Wire Line
+	1050 4600 1050 4650
+Text Label 1000 4300 0    50   ~ 0
+VDD1
+$Comp
+L symbols:AP7370 U?
+U 1 1 5E2DCC4A
+P 1650 1000
+F 0 "U?" H 1650 1265 50  0000 C CNN
+F 1 "AP7370" H 1650 1174 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 1650 400 50  0001 C CNN
+F 3 "https://www.mouser.se/datasheet/2/115/AP7370-1605740.pdf" H 1650 1000 50  0001 C CNN
+F 4 "AP7370-33SA-7" H 1650 1400 50  0001 C CNN "MPN"
+	1    1650 1000
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
