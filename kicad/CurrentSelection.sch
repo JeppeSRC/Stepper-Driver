@@ -22,7 +22,7 @@ AR Path="/5E159911" Ref="J?"  Part="1"
 AR Path="/5E13CE6C/5E159911" Ref="J11"  Part="1" 
 F 0 "J11" H 750 1600 50  0000 C CNN
 F 1 "3A" H 750 1450 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 850 1600 50  0001 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm" H 850 1600 50  0001 C CNN
 F 3 "~" H 850 1600 50  0001 C CNN
 	1    850  1600
 	1    0    0    -1  
@@ -48,7 +48,7 @@ AR Path="/5E15991E" Ref="J?"  Part="1"
 AR Path="/5E13CE6C/5E15991E" Ref="J13"  Part="1" 
 F 0 "J13" H 750 2000 50  0000 C CNN
 F 1 "4A" H 750 1850 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 850 2000 50  0001 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm" H 850 2000 50  0001 C CNN
 F 3 "~" H 850 2000 50  0001 C CNN
 	1    850  2000
 	1    0    0    -1  
@@ -58,8 +58,8 @@ L Device:R R?
 U 1 1 5E159926
 P 1200 2100
 AR Path="/5E159926" Ref="R?"  Part="1" 
-AR Path="/5E13CE6C/5E159926" Ref="R38"  Part="1" 
-F 0 "R38" V 1300 2100 50  0000 C CNN
+AR Path="/5E13CE6C/5E159926" Ref="R44"  Part="1" 
+F 0 "R44" V 1300 2100 50  0000 C CNN
 F 1 "10k" V 1200 2100 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 1130 2100 50  0001 C CNN
 F 3 "https://www.mouser.se/datasheet/2/427/crcwce3-1223726.pdf" H 1200 2100 50  0001 C CNN
@@ -88,7 +88,7 @@ AR Path="/5E159932" Ref="J?"  Part="1"
 AR Path="/5E13CE6C/5E159932" Ref="J15"  Part="1" 
 F 0 "J15" H 750 2400 50  0000 C CNN
 F 1 "5A" H 750 2250 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 850 2400 50  0001 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm" H 850 2400 50  0001 C CNN
 F 3 "~" H 850 2400 50  0001 C CNN
 	1    850  2400
 	1    0    0    -1  
@@ -98,8 +98,8 @@ L Device:R R?
 U 1 1 5E15993A
 P 1200 2500
 AR Path="/5E15993A" Ref="R?"  Part="1" 
-AR Path="/5E13CE6C/5E15993A" Ref="R40"  Part="1" 
-F 0 "R40" V 1300 2500 50  0000 C CNN
+AR Path="/5E13CE6C/5E15993A" Ref="R48"  Part="1" 
+F 0 "R48" V 1300 2500 50  0000 C CNN
 F 1 "10k" V 1200 2500 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 1130 2500 50  0001 C CNN
 F 3 "https://www.mouser.se/datasheet/2/427/crcwce3-1223726.pdf" H 1200 2500 50  0001 C CNN
@@ -115,7 +115,7 @@ AR Path="/5E159940" Ref="J?"  Part="1"
 AR Path="/5E13CE6C/5E159940" Ref="J9"  Part="1" 
 F 0 "J9" H 750 1200 50  0000 C CNN
 F 1 "2A" H 750 1050 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 850 1200 50  0001 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm" H 850 1200 50  0001 C CNN
 F 3 "~" H 850 1200 50  0001 C CNN
 	1    850  1200
 	1    0    0    -1  
@@ -125,8 +125,8 @@ L Device:R R?
 U 1 1 5E159948
 P 1200 1300
 AR Path="/5E159948" Ref="R?"  Part="1" 
-AR Path="/5E13CE6C/5E159948" Ref="R28"  Part="1" 
-F 0 "R28" V 1300 1300 50  0000 C CNN
+AR Path="/5E13CE6C/5E159948" Ref="R36"  Part="1" 
+F 0 "R36" V 1300 1300 50  0000 C CNN
 F 1 "7k15" V 1200 1300 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 1130 1300 50  0001 C CNN
 F 3 "https://www.mouser.se/datasheet/2/54/chpreztr-777398.pdf" H 1200 1300 50  0001 C CNN
@@ -155,7 +155,7 @@ AR Path="/5E159954" Ref="J?"  Part="1"
 AR Path="/5E13CE6C/5E159954" Ref="J7"  Part="1" 
 F 0 "J7" H 750 800 50  0000 C CNN
 F 1 "1A" H 750 650 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 850 800 50  0001 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm" H 850 800 50  0001 C CNN
 F 3 "~" H 850 800 50  0001 C CNN
 	1    850  800 
 	1    0    0    -1  
@@ -165,8 +165,8 @@ L Device:R R?
 U 1 1 5E15995C
 P 1200 900
 AR Path="/5E15995C" Ref="R?"  Part="1" 
-AR Path="/5E13CE6C/5E15995C" Ref="R26"  Part="1" 
-F 0 "R26" V 1300 900 50  0000 C CNN
+AR Path="/5E13CE6C/5E15995C" Ref="R28"  Part="1" 
+F 0 "R28" V 1300 900 50  0000 C CNN
 F 1 "1k" V 1200 900 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 1130 900 50  0001 C CNN
 F 3 "https://www.mouser.se/datasheet/2/447/PYu-RT_1-to-0.01_RoHS_L_9-1222720.pdf" H 1200 900 50  0001 C CNN
@@ -192,8 +192,8 @@ L Device:R R?
 U 1 1 5E159969
 P 1500 2500
 AR Path="/5E159969" Ref="R?"  Part="1" 
-AR Path="/5E13CE6C/5E159969" Ref="R41"  Part="1" 
-F 0 "R41" V 1600 2500 50  0000 C CNN
+AR Path="/5E13CE6C/5E159969" Ref="R49"  Part="1" 
+F 0 "R49" V 1600 2500 50  0000 C CNN
 F 1 "10k" V 1500 2500 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 1430 2500 50  0001 C CNN
 F 3 "https://www.mouser.se/datasheet/2/427/crcwce3-1223726.pdf" H 1500 2500 50  0001 C CNN
@@ -219,8 +219,8 @@ L Device:R R?
 U 1 1 5E159985
 P 1500 1700
 AR Path="/5E159985" Ref="R?"  Part="1" 
-AR Path="/5E13CE6C/5E159985" Ref="R33"  Part="1" 
-F 0 "R33" V 1600 1700 50  0000 C CNN
+AR Path="/5E13CE6C/5E159985" Ref="R39"  Part="1" 
+F 0 "R39" V 1600 1700 50  0000 C CNN
 F 1 "1k" V 1500 1700 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 1430 1700 50  0001 C CNN
 F 3 "https://www.mouser.se/datasheet/2/447/PYu-RT_1-to-0.01_RoHS_L_9-1222720.pdf" H 1500 1700 50  0001 C CNN
@@ -233,8 +233,8 @@ L Device:R R?
 U 1 1 5E15998C
 P 1200 1700
 AR Path="/5E15998C" Ref="R?"  Part="1" 
-AR Path="/5E13CE6C/5E15998C" Ref="R32"  Part="1" 
-F 0 "R32" V 1300 1700 50  0000 C CNN
+AR Path="/5E13CE6C/5E15998C" Ref="R38"  Part="1" 
+F 0 "R38" V 1300 1700 50  0000 C CNN
 F 1 "10k" V 1200 1700 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 1130 1700 50  0001 C CNN
 F 3 "https://www.mouser.se/datasheet/2/427/crcwce3-1223726.pdf" H 1200 1700 50  0001 C CNN
@@ -277,8 +277,8 @@ L Device:R R?
 U 1 1 5E26E8EB
 P 1600 2000
 AR Path="/5E26E8EB" Ref="R?"  Part="1" 
-AR Path="/5E13CE6C/5E26E8EB" Ref="R?"  Part="1" 
-F 0 "R?" V 1700 2000 50  0000 C CNN
+AR Path="/5E13CE6C/5E26E8EB" Ref="R42"  Part="1" 
+F 0 "R42" V 1700 2000 50  0000 C CNN
 F 1 "10k" V 1600 2000 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 1530 2000 50  0001 C CNN
 F 3 "https://www.mouser.se/datasheet/2/427/crcwce3-1223726.pdf" H 1600 2000 50  0001 C CNN
@@ -291,8 +291,8 @@ L Device:R R?
 U 1 1 5E26EC87
 P 1600 2200
 AR Path="/5E26EC87" Ref="R?"  Part="1" 
-AR Path="/5E13CE6C/5E26EC87" Ref="R?"  Part="1" 
-F 0 "R?" V 1700 2200 50  0000 C CNN
+AR Path="/5E13CE6C/5E26EC87" Ref="R46"  Part="1" 
+F 0 "R46" V 1700 2200 50  0000 C CNN
 F 1 "10k" V 1600 2200 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 1530 2200 50  0001 C CNN
 F 3 "https://www.mouser.se/datasheet/2/427/crcwce3-1223726.pdf" H 1600 2200 50  0001 C CNN
@@ -317,8 +317,8 @@ L Device:R R?
 U 1 1 5E273304
 P 1500 900
 AR Path="/5E273304" Ref="R?"  Part="1" 
-AR Path="/5E13CE6C/5E273304" Ref="R?"  Part="1" 
-F 0 "R?" V 1600 900 50  0000 C CNN
+AR Path="/5E13CE6C/5E273304" Ref="R29"  Part="1" 
+F 0 "R29" V 1600 900 50  0000 C CNN
 F 1 "1k" V 1500 900 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 1430 900 50  0001 C CNN
 F 3 "https://www.mouser.se/datasheet/2/447/PYu-RT_1-to-0.01_RoHS_L_9-1222720.pdf" H 1500 900 50  0001 C CNN
@@ -331,8 +331,8 @@ L Device:R R?
 U 1 1 5E2739B0
 P 1800 900
 AR Path="/5E2739B0" Ref="R?"  Part="1" 
-AR Path="/5E13CE6C/5E2739B0" Ref="R?"  Part="1" 
-F 0 "R?" V 1900 900 50  0000 C CNN
+AR Path="/5E13CE6C/5E2739B0" Ref="R30"  Part="1" 
+F 0 "R30" V 1900 900 50  0000 C CNN
 F 1 "1k" V 1800 900 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 1730 900 50  0001 C CNN
 F 3 "https://www.mouser.se/datasheet/2/447/PYu-RT_1-to-0.01_RoHS_L_9-1222720.pdf" H 1800 900 50  0001 C CNN
@@ -345,8 +345,8 @@ L Device:R R?
 U 1 1 5E274419
 P 2100 800
 AR Path="/5E274419" Ref="R?"  Part="1" 
-AR Path="/5E13CE6C/5E274419" Ref="R?"  Part="1" 
-F 0 "R?" V 2200 800 50  0000 C CNN
+AR Path="/5E13CE6C/5E274419" Ref="R26"  Part="1" 
+F 0 "R26" V 2200 800 50  0000 C CNN
 F 1 "1k" V 2100 800 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 2030 800 50  0001 C CNN
 F 3 "https://www.mouser.se/datasheet/2/447/PYu-RT_1-to-0.01_RoHS_L_9-1222720.pdf" H 2100 800 50  0001 C CNN
@@ -359,8 +359,8 @@ L Device:R R?
 U 1 1 5E2749EB
 P 2100 1000
 AR Path="/5E2749EB" Ref="R?"  Part="1" 
-AR Path="/5E13CE6C/5E2749EB" Ref="R?"  Part="1" 
-F 0 "R?" V 2200 1000 50  0000 C CNN
+AR Path="/5E13CE6C/5E2749EB" Ref="R34"  Part="1" 
+F 0 "R34" V 2200 1000 50  0000 C CNN
 F 1 "1k" V 2100 1000 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 2030 1000 50  0001 C CNN
 F 3 "https://www.mouser.se/datasheet/2/447/PYu-RT_1-to-0.01_RoHS_L_9-1222720.pdf" H 2100 1000 50  0001 C CNN
@@ -383,10 +383,10 @@ L Connector:Conn_01x02_Male J?
 U 1 1 5E2916C2
 P 2950 1600
 AR Path="/5E2916C2" Ref="J?"  Part="1" 
-AR Path="/5E13CE6C/5E2916C2" Ref="J?"  Part="1" 
-F 0 "J?" H 2850 1600 50  0000 C CNN
+AR Path="/5E13CE6C/5E2916C2" Ref="J12"  Part="1" 
+F 0 "J12" H 2850 1600 50  0000 C CNN
 F 1 "3A" H 2850 1450 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 2950 1600 50  0001 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm" H 2950 1600 50  0001 C CNN
 F 3 "~" H 2950 1600 50  0001 C CNN
 	1    2950 1600
 	1    0    0    -1  
@@ -396,8 +396,8 @@ L power:GND #PWR?
 U 1 1 5E2916C8
 P 3750 1700
 AR Path="/5E2916C8" Ref="#PWR?"  Part="1" 
-AR Path="/5E13CE6C/5E2916C8" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 3750 1450 50  0001 C CNN
+AR Path="/5E13CE6C/5E2916C8" Ref="#PWR053"  Part="1" 
+F 0 "#PWR053" H 3750 1450 50  0001 C CNN
 F 1 "GND" V 3755 1572 50  0000 R CNN
 F 2 "" H 3750 1700 50  0001 C CNN
 F 3 "" H 3750 1700 50  0001 C CNN
@@ -409,10 +409,10 @@ L Connector:Conn_01x02_Male J?
 U 1 1 5E2916CE
 P 2950 2000
 AR Path="/5E2916CE" Ref="J?"  Part="1" 
-AR Path="/5E13CE6C/5E2916CE" Ref="J?"  Part="1" 
-F 0 "J?" H 2850 2000 50  0000 C CNN
+AR Path="/5E13CE6C/5E2916CE" Ref="J14"  Part="1" 
+F 0 "J14" H 2850 2000 50  0000 C CNN
 F 1 "4A" H 2850 1850 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 2950 2000 50  0001 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm" H 2950 2000 50  0001 C CNN
 F 3 "~" H 2950 2000 50  0001 C CNN
 	1    2950 2000
 	1    0    0    -1  
@@ -422,8 +422,8 @@ L Device:R R?
 U 1 1 5E2916D5
 P 3300 2100
 AR Path="/5E2916D5" Ref="R?"  Part="1" 
-AR Path="/5E13CE6C/5E2916D5" Ref="R?"  Part="1" 
-F 0 "R?" V 3400 2100 50  0000 C CNN
+AR Path="/5E13CE6C/5E2916D5" Ref="R45"  Part="1" 
+F 0 "R45" V 3400 2100 50  0000 C CNN
 F 1 "10k" V 3300 2100 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 3230 2100 50  0001 C CNN
 F 3 "https://www.mouser.se/datasheet/2/427/crcwce3-1223726.pdf" H 3300 2100 50  0001 C CNN
@@ -436,8 +436,8 @@ L power:GND #PWR?
 U 1 1 5E2916DB
 P 3850 2100
 AR Path="/5E2916DB" Ref="#PWR?"  Part="1" 
-AR Path="/5E13CE6C/5E2916DB" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 3850 1850 50  0001 C CNN
+AR Path="/5E13CE6C/5E2916DB" Ref="#PWR055"  Part="1" 
+F 0 "#PWR055" H 3850 1850 50  0001 C CNN
 F 1 "GND" V 3855 1972 50  0000 R CNN
 F 2 "" H 3850 2100 50  0001 C CNN
 F 3 "" H 3850 2100 50  0001 C CNN
@@ -449,10 +449,10 @@ L Connector:Conn_01x02_Male J?
 U 1 1 5E2916E1
 P 2950 2400
 AR Path="/5E2916E1" Ref="J?"  Part="1" 
-AR Path="/5E13CE6C/5E2916E1" Ref="J?"  Part="1" 
-F 0 "J?" H 2850 2400 50  0000 C CNN
+AR Path="/5E13CE6C/5E2916E1" Ref="J16"  Part="1" 
+F 0 "J16" H 2850 2400 50  0000 C CNN
 F 1 "5A" H 2850 2250 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 2950 2400 50  0001 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm" H 2950 2400 50  0001 C CNN
 F 3 "~" H 2950 2400 50  0001 C CNN
 	1    2950 2400
 	1    0    0    -1  
@@ -462,8 +462,8 @@ L Device:R R?
 U 1 1 5E2916E8
 P 3300 2500
 AR Path="/5E2916E8" Ref="R?"  Part="1" 
-AR Path="/5E13CE6C/5E2916E8" Ref="R?"  Part="1" 
-F 0 "R?" V 3400 2500 50  0000 C CNN
+AR Path="/5E13CE6C/5E2916E8" Ref="R50"  Part="1" 
+F 0 "R50" V 3400 2500 50  0000 C CNN
 F 1 "10k" V 3300 2500 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 3230 2500 50  0001 C CNN
 F 3 "https://www.mouser.se/datasheet/2/427/crcwce3-1223726.pdf" H 3300 2500 50  0001 C CNN
@@ -476,10 +476,10 @@ L Connector:Conn_01x02_Male J?
 U 1 1 5E2916EE
 P 2950 1200
 AR Path="/5E2916EE" Ref="J?"  Part="1" 
-AR Path="/5E13CE6C/5E2916EE" Ref="J?"  Part="1" 
-F 0 "J?" H 2850 1200 50  0000 C CNN
+AR Path="/5E13CE6C/5E2916EE" Ref="J10"  Part="1" 
+F 0 "J10" H 2850 1200 50  0000 C CNN
 F 1 "2A" H 2850 1050 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 2950 1200 50  0001 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm" H 2950 1200 50  0001 C CNN
 F 3 "~" H 2950 1200 50  0001 C CNN
 	1    2950 1200
 	1    0    0    -1  
@@ -489,8 +489,8 @@ L Device:R R?
 U 1 1 5E2916F5
 P 3300 1300
 AR Path="/5E2916F5" Ref="R?"  Part="1" 
-AR Path="/5E13CE6C/5E2916F5" Ref="R?"  Part="1" 
-F 0 "R?" V 3400 1300 50  0000 C CNN
+AR Path="/5E13CE6C/5E2916F5" Ref="R37"  Part="1" 
+F 0 "R37" V 3400 1300 50  0000 C CNN
 F 1 "7k15" V 3300 1300 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 3230 1300 50  0001 C CNN
 F 3 "https://www.mouser.se/datasheet/2/54/chpreztr-777398.pdf" H 3300 1300 50  0001 C CNN
@@ -503,8 +503,8 @@ L power:GND #PWR?
 U 1 1 5E2916FB
 P 3450 1300
 AR Path="/5E2916FB" Ref="#PWR?"  Part="1" 
-AR Path="/5E13CE6C/5E2916FB" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 3450 1050 50  0001 C CNN
+AR Path="/5E13CE6C/5E2916FB" Ref="#PWR051"  Part="1" 
+F 0 "#PWR051" H 3450 1050 50  0001 C CNN
 F 1 "GND" V 3455 1172 50  0000 R CNN
 F 2 "" H 3450 1300 50  0001 C CNN
 F 3 "" H 3450 1300 50  0001 C CNN
@@ -516,10 +516,10 @@ L Connector:Conn_01x02_Male J?
 U 1 1 5E291701
 P 2950 800
 AR Path="/5E291701" Ref="J?"  Part="1" 
-AR Path="/5E13CE6C/5E291701" Ref="J?"  Part="1" 
-F 0 "J?" H 2850 800 50  0000 C CNN
+AR Path="/5E13CE6C/5E291701" Ref="J8"  Part="1" 
+F 0 "J8" H 2850 800 50  0000 C CNN
 F 1 "1A" H 2850 650 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 2950 800 50  0001 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm" H 2950 800 50  0001 C CNN
 F 3 "~" H 2950 800 50  0001 C CNN
 	1    2950 800 
 	1    0    0    -1  
@@ -529,8 +529,8 @@ L Device:R R?
 U 1 1 5E291708
 P 3300 900
 AR Path="/5E291708" Ref="R?"  Part="1" 
-AR Path="/5E13CE6C/5E291708" Ref="R?"  Part="1" 
-F 0 "R?" V 3400 900 50  0000 C CNN
+AR Path="/5E13CE6C/5E291708" Ref="R31"  Part="1" 
+F 0 "R31" V 3400 900 50  0000 C CNN
 F 1 "1k" V 3300 900 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 3230 900 50  0001 C CNN
 F 3 "https://www.mouser.se/datasheet/2/447/PYu-RT_1-to-0.01_RoHS_L_9-1222720.pdf" H 3300 900 50  0001 C CNN
@@ -543,8 +543,8 @@ L power:GND #PWR?
 U 1 1 5E29170E
 P 4350 900
 AR Path="/5E29170E" Ref="#PWR?"  Part="1" 
-AR Path="/5E13CE6C/5E29170E" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 4350 650 50  0001 C CNN
+AR Path="/5E13CE6C/5E29170E" Ref="#PWR049"  Part="1" 
+F 0 "#PWR049" H 4350 650 50  0001 C CNN
 F 1 "GND" V 4355 772 50  0000 R CNN
 F 2 "" H 4350 900 50  0001 C CNN
 F 3 "" H 4350 900 50  0001 C CNN
@@ -556,8 +556,8 @@ L Device:R R?
 U 1 1 5E291715
 P 3600 2500
 AR Path="/5E291715" Ref="R?"  Part="1" 
-AR Path="/5E13CE6C/5E291715" Ref="R?"  Part="1" 
-F 0 "R?" V 3700 2500 50  0000 C CNN
+AR Path="/5E13CE6C/5E291715" Ref="R51"  Part="1" 
+F 0 "R51" V 3700 2500 50  0000 C CNN
 F 1 "10k" V 3600 2500 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 3530 2500 50  0001 C CNN
 F 3 "https://www.mouser.se/datasheet/2/427/crcwce3-1223726.pdf" H 3600 2500 50  0001 C CNN
@@ -570,8 +570,8 @@ L power:GND #PWR?
 U 1 1 5E29171B
 P 3750 2500
 AR Path="/5E29171B" Ref="#PWR?"  Part="1" 
-AR Path="/5E13CE6C/5E29171B" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 3750 2250 50  0001 C CNN
+AR Path="/5E13CE6C/5E29171B" Ref="#PWR057"  Part="1" 
+F 0 "#PWR057" H 3750 2250 50  0001 C CNN
 F 1 "GND" V 3755 2372 50  0000 R CNN
 F 2 "" H 3750 2500 50  0001 C CNN
 F 3 "" H 3750 2500 50  0001 C CNN
@@ -583,8 +583,8 @@ L Device:R R?
 U 1 1 5E291722
 P 3600 1700
 AR Path="/5E291722" Ref="R?"  Part="1" 
-AR Path="/5E13CE6C/5E291722" Ref="R?"  Part="1" 
-F 0 "R?" V 3700 1700 50  0000 C CNN
+AR Path="/5E13CE6C/5E291722" Ref="R41"  Part="1" 
+F 0 "R41" V 3700 1700 50  0000 C CNN
 F 1 "1k" V 3600 1700 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 3530 1700 50  0001 C CNN
 F 3 "https://www.mouser.se/datasheet/2/447/PYu-RT_1-to-0.01_RoHS_L_9-1222720.pdf" H 3600 1700 50  0001 C CNN
@@ -597,8 +597,8 @@ L Device:R R?
 U 1 1 5E291729
 P 3300 1700
 AR Path="/5E291729" Ref="R?"  Part="1" 
-AR Path="/5E13CE6C/5E291729" Ref="R?"  Part="1" 
-F 0 "R?" V 3400 1700 50  0000 C CNN
+AR Path="/5E13CE6C/5E291729" Ref="R40"  Part="1" 
+F 0 "R40" V 3400 1700 50  0000 C CNN
 F 1 "10k" V 3300 1700 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 3230 1700 50  0001 C CNN
 F 3 "https://www.mouser.se/datasheet/2/427/crcwce3-1223726.pdf" H 3300 1700 50  0001 C CNN
@@ -621,8 +621,8 @@ L Device:R R?
 U 1 1 5E291735
 P 3700 2000
 AR Path="/5E291735" Ref="R?"  Part="1" 
-AR Path="/5E13CE6C/5E291735" Ref="R?"  Part="1" 
-F 0 "R?" V 3800 2000 50  0000 C CNN
+AR Path="/5E13CE6C/5E291735" Ref="R43"  Part="1" 
+F 0 "R43" V 3800 2000 50  0000 C CNN
 F 1 "10k" V 3700 2000 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 3630 2000 50  0001 C CNN
 F 3 "https://www.mouser.se/datasheet/2/427/crcwce3-1223726.pdf" H 3700 2000 50  0001 C CNN
@@ -635,8 +635,8 @@ L Device:R R?
 U 1 1 5E29173C
 P 3700 2200
 AR Path="/5E29173C" Ref="R?"  Part="1" 
-AR Path="/5E13CE6C/5E29173C" Ref="R?"  Part="1" 
-F 0 "R?" V 3800 2200 50  0000 C CNN
+AR Path="/5E13CE6C/5E29173C" Ref="R47"  Part="1" 
+F 0 "R47" V 3800 2200 50  0000 C CNN
 F 1 "10k" V 3700 2200 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 3630 2200 50  0001 C CNN
 F 3 "https://www.mouser.se/datasheet/2/427/crcwce3-1223726.pdf" H 3700 2200 50  0001 C CNN
@@ -661,8 +661,8 @@ L Device:R R?
 U 1 1 5E29174A
 P 3600 900
 AR Path="/5E29174A" Ref="R?"  Part="1" 
-AR Path="/5E13CE6C/5E29174A" Ref="R?"  Part="1" 
-F 0 "R?" V 3700 900 50  0000 C CNN
+AR Path="/5E13CE6C/5E29174A" Ref="R32"  Part="1" 
+F 0 "R32" V 3700 900 50  0000 C CNN
 F 1 "1k" V 3600 900 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 3530 900 50  0001 C CNN
 F 3 "https://www.mouser.se/datasheet/2/447/PYu-RT_1-to-0.01_RoHS_L_9-1222720.pdf" H 3600 900 50  0001 C CNN
@@ -675,8 +675,8 @@ L Device:R R?
 U 1 1 5E291751
 P 3900 900
 AR Path="/5E291751" Ref="R?"  Part="1" 
-AR Path="/5E13CE6C/5E291751" Ref="R?"  Part="1" 
-F 0 "R?" V 4000 900 50  0000 C CNN
+AR Path="/5E13CE6C/5E291751" Ref="R33"  Part="1" 
+F 0 "R33" V 4000 900 50  0000 C CNN
 F 1 "1k" V 3900 900 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 3830 900 50  0001 C CNN
 F 3 "https://www.mouser.se/datasheet/2/447/PYu-RT_1-to-0.01_RoHS_L_9-1222720.pdf" H 3900 900 50  0001 C CNN
@@ -689,8 +689,8 @@ L Device:R R?
 U 1 1 5E291758
 P 4200 800
 AR Path="/5E291758" Ref="R?"  Part="1" 
-AR Path="/5E13CE6C/5E291758" Ref="R?"  Part="1" 
-F 0 "R?" V 4300 800 50  0000 C CNN
+AR Path="/5E13CE6C/5E291758" Ref="R27"  Part="1" 
+F 0 "R27" V 4300 800 50  0000 C CNN
 F 1 "1k" V 4200 800 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 4130 800 50  0001 C CNN
 F 3 "https://www.mouser.se/datasheet/2/447/PYu-RT_1-to-0.01_RoHS_L_9-1222720.pdf" H 4200 800 50  0001 C CNN
@@ -703,8 +703,8 @@ L Device:R R?
 U 1 1 5E29175F
 P 4200 1000
 AR Path="/5E29175F" Ref="R?"  Part="1" 
-AR Path="/5E13CE6C/5E29175F" Ref="R?"  Part="1" 
-F 0 "R?" V 4300 1000 50  0000 C CNN
+AR Path="/5E13CE6C/5E29175F" Ref="R35"  Part="1" 
+F 0 "R35" V 4300 1000 50  0000 C CNN
 F 1 "1k" V 4200 1000 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 4130 1000 50  0001 C CNN
 F 3 "https://www.mouser.se/datasheet/2/447/PYu-RT_1-to-0.01_RoHS_L_9-1222720.pdf" H 4200 1000 50  0001 C CNN
