@@ -89,22 +89,6 @@ F 3 "" H 1650 1200 50  0001 C CNN
 	1    1650 1200
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	2550 6200 2500 6200
-$Comp
-L power:GND #PWR046
-U 1 1 5DAF219E
-P 2500 6200
-F 0 "#PWR046" H 2500 5950 50  0001 C CNN
-F 1 "GND" H 2505 6027 50  0000 C CNN
-F 2 "" H 2500 6200 50  0001 C CNN
-F 3 "" H 2500 6200 50  0001 C CNN
-	1    2500 6200
-	1    0    0    -1  
-$EndComp
-Connection ~ 2500 6200
-Wire Wire Line
-	2500 6200 2450 6200
 Text Label 1950 6000 2    50   ~ 0
 IN_STEP
 Text Label 1950 5900 2    50   ~ 0
@@ -2552,4 +2536,20 @@ F 4 "AP7370-33SA-7" H 1650 1400 50  0001 C CNN "MPN"
 	1    1650 1000
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	2450 6200 2500 6200
+$Comp
+L power:GNDD #PWR?
+U 1 1 5E433F9B
+P 2500 6200
+F 0 "#PWR?" H 2500 5950 50  0001 C CNN
+F 1 "GNDD" H 2504 6045 50  0000 C CNN
+F 2 "" H 2500 6200 50  0001 C CNN
+F 3 "" H 2500 6200 50  0001 C CNN
+	1    2500 6200
+	1    0    0    -1  
+$EndComp
+Connection ~ 2500 6200
+Wire Wire Line
+	2500 6200 2550 6200
 $EndSCHEMATC
