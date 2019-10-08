@@ -643,15 +643,15 @@ Wire Wire Line
 $Comp
 L Device:CP_Small C?
 U 1 1 5DA8694E
-P 8100 950
+P 8100 1300
 AR Path="/5D7DF8B7/5DA8694E" Ref="C?"  Part="1" 
 AR Path="/5DA8694E" Ref="C2"  Part="1" 
-F 0 "C2" V 8325 950 50  0000 C CNN
-F 1 "1000µF" V 8234 950 50  0000 C CNN
-F 2 "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm" H 8100 950 50  0001 C CNN
-F 3 "https://www.mouser.se/datasheet/2/212/KEM_A4004_ESK-1103206.pdf" H 8100 950 50  0001 C CNN
-F 4 "ESK108M025AH4AA" H 8100 950 50  0001 C CNN "MPN"
-	1    8100 950 
+F 0 "C2" V 8300 1300 50  0000 C CNN
+F 1 "1000µF" V 8234 1300 50  0000 C CNN
+F 2 "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm" H 8100 1300 50  0001 C CNN
+F 3 "https://www.mouser.se/datasheet/2/212/KEM_A4004_ESK-1103206.pdf" H 8100 1300 50  0001 C CNN
+F 4 "ESK108M025AH4AA" H 8100 1300 50  0001 C CNN "MPN"
+	1    8100 1300
 	0    -1   -1   0   
 $EndComp
 $Comp
@@ -662,9 +662,9 @@ AR Path="/5D7DF8B7/5DA86954" Ref="C?"  Part="1"
 AR Path="/5DA86954" Ref="C1"  Part="1" 
 F 0 "C1" V 7375 950 50  0000 C CNN
 F 1 "100µF" V 7466 950 50  0000 C CNN
-F 2 "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm" H 7600 950 50  0001 C CNN
-F 3 "https://www.mouser.se/datasheet/2/231/144194369515-773075.pdf" H 7600 950 50  0001 C CNN
-F 4 "RGA101M1EBK-0611G" H 7600 950 50  0001 C CNN "MPN"
+F 2 "Capacitor_THT:CP_Radial_D8.0mm_P3.50mm" H 7600 950 50  0001 C CNN
+F 3 "https://www.mouser.se/datasheet/2/420/53523916652d6c547a9dde-1128902.pdf" H 7600 950 50  0001 C CNN
+F 4 "EKZN500ELL101MHB5D" H 7600 950 50  0001 C CNN "MPN"
 	1    7600 950 
 	0    1    1    0   
 $EndComp
@@ -683,7 +683,7 @@ F 4 "TMK212BBJ106MGHT" H 7600 1300 50  0001 C CNN "MPN"
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	8000 950  7850 950 
+	8000 1300 7850 1300
 Connection ~ 7850 950 
 Wire Wire Line
 	7850 950  7700 950 
@@ -714,14 +714,14 @@ $EndComp
 $Comp
 L power:GND #PWR?
 U 1 1 5DA8696F
-P 8200 950
+P 8200 1300
 AR Path="/5D7DF8B7/5DA8696F" Ref="#PWR?"  Part="1" 
 AR Path="/5DA8696F" Ref="#PWR06"  Part="1" 
-F 0 "#PWR06" H 8200 700 50  0001 C CNN
-F 1 "GND" V 8205 822 50  0000 R CNN
-F 2 "" H 8200 950 50  0001 C CNN
-F 3 "" H 8200 950 50  0001 C CNN
-	1    8200 950 
+F 0 "#PWR06" H 8200 1050 50  0001 C CNN
+F 1 "GND" V 8205 1172 50  0000 R CNN
+F 2 "" H 8200 1300 50  0001 C CNN
+F 3 "" H 8200 1300 50  0001 C CNN
+	1    8200 1300
 	0    -1   -1   0   
 $EndComp
 Connection ~ 7850 1450
@@ -1012,15 +1012,15 @@ Wire Wire Line
 $Comp
 L Device:CP_Small C?
 U 1 1 5DA86A39
-P 10400 950
+P 10400 1300
 AR Path="/5D7DF8B7/5DA86A39" Ref="C?"  Part="1" 
 AR Path="/5DA86A39" Ref="C4"  Part="1" 
-F 0 "C4" V 10625 950 50  0000 C CNN
-F 1 "1000µF" V 10534 950 50  0000 C CNN
-F 2 "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm" H 10400 950 50  0001 C CNN
-F 3 "https://www.mouser.se/datasheet/2/212/KEM_A4004_ESK-1103206.pdf" H 10400 950 50  0001 C CNN
-F 4 "ESK108M025AH4AA" H 10400 950 50  0001 C CNN "MPN"
-	1    10400 950 
+F 0 "C4" V 10625 1300 50  0000 C CNN
+F 1 "1000µF" V 10534 1300 50  0000 C CNN
+F 2 "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm" H 10400 1300 50  0001 C CNN
+F 3 "https://www.mouser.se/datasheet/2/212/KEM_A4004_ESK-1103206.pdf" H 10400 1300 50  0001 C CNN
+F 4 "ESK108M025AH4AA" H 10400 1300 50  0001 C CNN "MPN"
+	1    10400 1300
 	0    -1   -1   0   
 $EndComp
 $Comp
@@ -1031,9 +1031,9 @@ AR Path="/5D7DF8B7/5DA86A3F" Ref="C?"  Part="1"
 AR Path="/5DA86A3F" Ref="C3"  Part="1" 
 F 0 "C3" V 9675 950 50  0000 C CNN
 F 1 "100µF" V 9766 950 50  0000 C CNN
-F 2 "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm" H 9900 950 50  0001 C CNN
-F 3 "https://www.mouser.se/datasheet/2/231/144194369515-773075.pdf" H 9900 950 50  0001 C CNN
-F 4 "RGA101M1EBK-0611G" H 9900 950 50  0001 C CNN "MPN"
+F 2 "Capacitor_THT:CP_Radial_D8.0mm_P3.50mm" H 9900 950 50  0001 C CNN
+F 3 "https://www.mouser.se/datasheet/2/420/53523916652d6c547a9dde-1128902.pdf" H 9900 950 50  0001 C CNN
+F 4 "EKZN500ELL101MHB5D" H 9900 950 50  0001 C CNN "MPN"
 	1    9900 950 
 	0    1    1    0   
 $EndComp
@@ -1065,21 +1065,6 @@ Wire Wire Line
 	10150 1300 10150 1450
 Wire Wire Line
 	9800 1300 9650 1300
-Wire Wire Line
-	9650 950  9800 950 
-$Comp
-L power:GND #PWR?
-U 1 1 5DA86A54
-P 9650 950
-AR Path="/5D7DF8B7/5DA86A54" Ref="#PWR?"  Part="1" 
-AR Path="/5DA86A54" Ref="#PWR07"  Part="1" 
-F 0 "#PWR07" H 9650 700 50  0001 C CNN
-F 1 "GND" V 9655 822 50  0000 R CNN
-F 2 "" H 9650 950 50  0001 C CNN
-F 3 "" H 9650 950 50  0001 C CNN
-	1    9650 950 
-	0    1    1    0   
-$EndComp
 $Comp
 L power:GND #PWR?
 U 1 1 5DA86A5A
@@ -1249,9 +1234,6 @@ F 4 "DMG4496SSS-13" H 10500 2350 50  0001 C CNN "MPN"
 	1    10500 2350
 	-1   0    0    -1  
 $EndComp
-Connection ~ 9650 950 
-Wire Wire Line
-	9650 950  9650 1300
 $Comp
 L Device:R R?
 U 1 1 5DA86AAF
@@ -2434,6 +2416,82 @@ F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 5550 4250 50  
 F 3 "https://www.mouser.se/datasheet/2/396/taiyo_yuden_12132018_mlcc11_hq_e-1510082.pdf" H 5550 4250 50  0001 C CNN
 F 4 "TMK212BBJ106MGHT" H 5550 4250 50  0001 C CNN "MPN"
 	1    5550 4250
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5D9F8BA2
+P 10500 1300
+AR Path="/5D7DF8B7/5D9F8BA2" Ref="#PWR?"  Part="1" 
+AR Path="/5D9F8BA2" Ref="#PWR0101"  Part="1" 
+F 0 "#PWR0101" H 10500 1050 50  0001 C CNN
+F 1 "GND" V 10505 1172 50  0000 R CNN
+F 2 "" H 10500 1300 50  0001 C CNN
+F 3 "" H 10500 1300 50  0001 C CNN
+	1    10500 1300
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	10150 1300 10300 1300
+$Comp
+L Device:CP_Small C?
+U 1 1 5DA0C704
+P 10400 950
+AR Path="/5D7DF8B7/5DA0C704" Ref="C?"  Part="1" 
+AR Path="/5DA0C704" Ref="C28"  Part="1" 
+F 0 "C28" V 10600 950 50  0000 C CNN
+F 1 "100µF" V 10500 950 50  0000 C CNN
+F 2 "Capacitor_THT:CP_Radial_D8.0mm_P3.50mm" H 10400 950 50  0001 C CNN
+F 3 "https://www.mouser.se/datasheet/2/420/53523916652d6c547a9dde-1128902.pdf" H 10400 950 50  0001 C CNN
+F 4 "EKZN500ELL101MHB5D" H 10400 950 50  0001 C CNN "MPN"
+	1    10400 950 
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:CP_Small C?
+U 1 1 5DA588F6
+P 8100 950
+AR Path="/5D7DF8B7/5DA588F6" Ref="C?"  Part="1" 
+AR Path="/5DA588F6" Ref="C27"  Part="1" 
+F 0 "C27" V 8300 950 50  0000 C CNN
+F 1 "100µF" V 8200 950 50  0000 C CNN
+F 2 "Capacitor_THT:CP_Radial_D8.0mm_P3.50mm" H 8100 950 50  0001 C CNN
+F 3 "https://www.mouser.se/datasheet/2/420/53523916652d6c547a9dde-1128902.pdf" H 8100 950 50  0001 C CNN
+F 4 "EKZN500ELL101MHB5D" H 8100 950 50  0001 C CNN "MPN"
+	1    8100 950 
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7850 950  8000 950 
+$Comp
+L power:GND #PWR?
+U 1 1 5DA588FE
+P 8200 950
+AR Path="/5D7DF8B7/5DA588FE" Ref="#PWR?"  Part="1" 
+AR Path="/5DA588FE" Ref="#PWR0102"  Part="1" 
+F 0 "#PWR0102" H 8200 700 50  0001 C CNN
+F 1 "GND" V 8205 822 50  0000 R CNN
+F 2 "" H 8200 950 50  0001 C CNN
+F 3 "" H 8200 950 50  0001 C CNN
+	1    8200 950 
+	0    -1   -1   0   
+$EndComp
+Connection ~ 9650 950 
+Wire Wire Line
+	9650 950  9800 950 
+Wire Wire Line
+	9650 950  9650 1300
+$Comp
+L power:GND #PWR?
+U 1 1 5DA86A54
+P 9650 950
+AR Path="/5D7DF8B7/5DA86A54" Ref="#PWR?"  Part="1" 
+AR Path="/5DA86A54" Ref="#PWR07"  Part="1" 
+F 0 "#PWR07" H 9650 700 50  0001 C CNN
+F 1 "GND" V 9655 822 50  0000 R CNN
+F 2 "" H 9650 950 50  0001 C CNN
+F 3 "" H 9650 950 50  0001 C CNN
+	1    9650 950 
 	0    1    1    0   
 $EndComp
 $EndSCHEMATC
