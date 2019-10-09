@@ -668,20 +668,6 @@ F 4 "EKZN500ELL101MHB5D" H 7600 950 50  0001 C CNN "MPN"
 	1    7600 950 
 	0    1    1    0   
 $EndComp
-$Comp
-L Device:C_Small C?
-U 1 1 5DA8695A
-P 7600 1300
-AR Path="/5D7DF8B7/5DA8695A" Ref="C?"  Part="1" 
-AR Path="/5DA8695A" Ref="C15"  Part="1" 
-F 0 "C15" V 7371 1300 50  0000 C CNN
-F 1 "10µF" V 7462 1300 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 7600 1300 50  0001 C CNN
-F 3 "https://www.mouser.se/datasheet/2/396/taiyo_yuden_12132018_mlcc11_hq_e-1510082.pdf" H 7600 1300 50  0001 C CNN
-F 4 "TMK212BBJ106MGHT" H 7600 1300 50  0001 C CNN "MPN"
-	1    7600 1300
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	8000 1300 7850 1300
 Connection ~ 7850 950 
@@ -689,13 +675,9 @@ Wire Wire Line
 	7850 950  7700 950 
 Wire Wire Line
 	7850 950  7850 1300
-Wire Wire Line
-	7700 1300 7850 1300
 Connection ~ 7850 1300
 Wire Wire Line
 	7850 1300 7850 1450
-Wire Wire Line
-	7500 1300 7350 1300
 Wire Wire Line
 	7350 950  7500 950 
 $Comp
@@ -978,9 +960,6 @@ F 3 "" H 7500 4425 50  0001 C CNN
 	1    7500 4425
 	1    0    0    -1  
 $EndComp
-Connection ~ 7350 950 
-Wire Wire Line
-	7350 950  7350 1300
 Wire Wire Line
 	9650 1850 9650 2000
 Wire Wire Line
@@ -1037,20 +1016,6 @@ F 4 "EKZN500ELL101MHB5D" H 9900 950 50  0001 C CNN "MPN"
 	1    9900 950 
 	0    1    1    0   
 $EndComp
-$Comp
-L Device:C_Small C?
-U 1 1 5DA86A45
-P 9900 1300
-AR Path="/5D7DF8B7/5DA86A45" Ref="C?"  Part="1" 
-AR Path="/5DA86A45" Ref="C16"  Part="1" 
-F 0 "C16" V 9671 1300 50  0000 C CNN
-F 1 "10µF" V 9762 1300 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 9900 1300 50  0001 C CNN
-F 3 "https://www.mouser.se/datasheet/2/396/taiyo_yuden_12132018_mlcc11_hq_e-1510082.pdf" H 9900 1300 50  0001 C CNN
-F 4 "TMK212BBJ106MGHT" H 9900 1300 50  0001 C CNN "MPN"
-	1    9900 1300
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	10300 950  10150 950 
 Connection ~ 10150 950 
@@ -1058,13 +1023,9 @@ Wire Wire Line
 	10150 950  10000 950 
 Wire Wire Line
 	10150 950  10150 1300
-Wire Wire Line
-	10000 1300 10150 1300
 Connection ~ 10150 1300
 Wire Wire Line
 	10150 1300 10150 1450
-Wire Wire Line
-	9800 1300 9650 1300
 $Comp
 L power:GND #PWR?
 U 1 1 5DA86A5A
@@ -2476,11 +2437,8 @@ F 3 "" H 8200 950 50  0001 C CNN
 	1    8200 950 
 	0    -1   -1   0   
 $EndComp
-Connection ~ 9650 950 
 Wire Wire Line
 	9650 950  9800 950 
-Wire Wire Line
-	9650 950  9650 1300
 $Comp
 L power:GND #PWR?
 U 1 1 5DA86A54
