@@ -2140,9 +2140,6 @@ $EndSheet
 Wire Wire Line
 	8750 5550 9100 5550
 Wire Wire Line
-	9100 5550 9100 5100
-Connection ~ 9100 5100
-Wire Wire Line
 	8750 5650 10250 5650
 Wire Wire Line
 	10250 5650 10250 5100
@@ -2452,4 +2449,11 @@ F 3 "" H 9650 950 50  0001 C CNN
 	1    9650 950 
 	0    1    1    0   
 $EndComp
+Wire Wire Line
+	9100 5550 9100 5200
+Wire Wire Line
+	9100 5200 8500 5200
+Wire Wire Line
+	8500 5200 8500 5100
+Connection ~ 8500 5100
 $EndSCHEMATC
