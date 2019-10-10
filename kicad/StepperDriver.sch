@@ -30,23 +30,23 @@ Text Label 3050 5400 0    50   ~ 0
 USART_TX
 Text Label 3050 5500 0    50   ~ 0
 USART_RX
-Text Label 3050 4500 0    50   ~ 0
-P1_1
-Text Label 3050 4600 0    50   ~ 0
-P1_2
 Text Label 3050 4700 0    50   ~ 0
-P1_3
+P1_1
 Text Label 3050 4800 0    50   ~ 0
+P1_2
+Text Label 3050 4900 0    50   ~ 0
+P1_3
+Text Label 3050 5000 0    50   ~ 0
 P1_4
 Text Label 3050 5200 0    50   ~ 0
 IP2
-Text Label 3050 4900 0    50   ~ 0
+Text Label 1950 5100 2    50   ~ 0
 P2_1
-Text Label 3050 5000 0    50   ~ 0
+Text Label 1950 5200 2    50   ~ 0
 P2_2
-Text Label 3050 5100 0    50   ~ 0
+Text Label 3050 4500 0    50   ~ 0
 P2_3
-Text Label 3050 5300 0    50   ~ 0
+Text Label 3050 4600 0    50   ~ 0
 P2_4
 Wire Wire Line
 	1150 1200 1650 1200
@@ -1985,8 +1985,6 @@ Text Notes 6700 700  0    50   ~ 10
 H Bridge Phase 1 And Phase 2
 Text Notes 6700 4250 0    50   ~ 10
 Phase Sense Amp
-NoConn ~ 1950 5100
-NoConn ~ 1950 5200
 NoConn ~ 3050 5600
 NoConn ~ 3050 5700
 NoConn ~ 3050 5800
@@ -2456,4 +2454,6 @@ Wire Wire Line
 Wire Wire Line
 	8500 5200 8500 5100
 Connection ~ 8500 5100
+NoConn ~ 3050 5100
+NoConn ~ 3050 5300
 $EndSCHEMATC
