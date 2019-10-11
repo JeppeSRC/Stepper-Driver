@@ -2158,22 +2158,6 @@ F 4 "AP7370-33SA-7" H 1650 1400 50  0001 C CNN "MPN"
 	1    1650 1000
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	2450 6200 2500 6200
-$Comp
-L power:GNDD #PWR042
-U 1 1 5E433F9B
-P 2500 6200
-F 0 "#PWR042" H 2500 5950 50  0001 C CNN
-F 1 "GNDD" H 2504 6045 50  0000 C CNN
-F 2 "" H 2500 6200 50  0001 C CNN
-F 3 "" H 2500 6200 50  0001 C CNN
-	1    2500 6200
-	1    0    0    -1  
-$EndComp
-Connection ~ 2500 6200
-Wire Wire Line
-	2500 6200 2550 6200
 $Comp
 L Device:C_Small C?
 U 1 1 5E476718
@@ -2456,4 +2440,22 @@ Wire Wire Line
 Connection ~ 8500 5100
 NoConn ~ 3050 5100
 NoConn ~ 3050 5300
+Wire Wire Line
+	2450 6200 2500 6200
+$Comp
+L power:GND #PWR?
+U 1 1 5DCED066
+P 2500 6200
+F 0 "#PWR?" H 2500 5950 50  0001 C CNN
+F 1 "GND" H 2505 6027 50  0000 C CNN
+F 2 "" H 2500 6200 50  0001 C CNN
+F 3 "" H 2500 6200 50  0001 C CNN
+	1    2500 6200
+	1    0    0    -1  
+$EndComp
+Connection ~ 2500 6200
+Wire Wire Line
+	2500 6200 2550 6200
+Entry Wire Line
+	8300 3700 8400 3800
 $EndSCHEMATC
