@@ -39,7 +39,7 @@ P1_3
 Text Label 3050 5000 0    50   ~ 0
 P1_4
 Text Label 3050 5200 0    50   ~ 0
-IP2
+IP1
 Text Label 1950 5100 2    50   ~ 0
 P2_1
 Text Label 1950 5200 2    50   ~ 0
