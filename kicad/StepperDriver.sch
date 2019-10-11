@@ -2456,6 +2456,4 @@ $EndComp
 Connection ~ 2500 6200
 Wire Wire Line
 	2500 6200 2550 6200
-Entry Wire Line
-	8300 3700 8400 3800
 $EndSCHEMATC
