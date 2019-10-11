@@ -2109,11 +2109,11 @@ Wire Wire Line
 	950  7000 1050 7000
 Wire Wire Line
 	1050 7000 1050 7100
-Text Label 950  6700 0    50   ~ 0
+Text Label 950  6900 0    50   ~ 0
 IN_STEP
 Text Label 950  6800 0    50   ~ 0
 IN_DIR
-Text Label 950  6900 0    50   ~ 0
+Text Label 950  6700 0    50   ~ 0
 IN_PWR
 Wire Notes Line width 10
 	600  6350 600  7350
@@ -2443,10 +2443,10 @@ NoConn ~ 3050 5300
 Wire Wire Line
 	2450 6200 2500 6200
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0103
 U 1 1 5DCED066
 P 2500 6200
-F 0 "#PWR?" H 2500 5950 50  0001 C CNN
+F 0 "#PWR0103" H 2500 5950 50  0001 C CNN
 F 1 "GND" H 2505 6027 50  0000 C CNN
 F 2 "" H 2500 6200 50  0001 C CNN
 F 3 "" H 2500 6200 50  0001 C CNN
