@@ -1603,7 +1603,7 @@ AR Path="/5DA86B6E" Ref="U10"  Part="1"
 F 0 "U10" H 4400 3600 50  0000 C CNN
 F 1 "FAN3278" H 4450 3500 50  0000 C CNN
 F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 4300 2600 50  0001 L CNN
-F 3 "http://www.onsemi.com/pub/Collateral/FAN3268T_F085-D.PDF" H 4250 3150 50  0001 C CNN
+F 3 "https://www.mouser.se/datasheet/2/308/FAN3278-1300254.pdf" H 4250 3150 50  0001 C CNN
 F 4 "FAN3278TMX" H 4250 3050 50  0001 C CNN "MPN"
 	1    4250 3050
 	1    0    0    -1  
@@ -1719,7 +1719,7 @@ AR Path="/5DA86BD7" Ref="U11"  Part="1"
 F 0 "U11" H 5900 3600 50  0000 C CNN
 F 1 "FAN3278" H 5950 3500 50  0000 C CNN
 F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 5800 2600 50  0001 L CNN
-F 3 "http://www.onsemi.com/pub/Collateral/FAN3268T_F085-D.PDF" H 5750 3150 50  0001 C CNN
+F 3 "https://www.mouser.se/datasheet/2/308/FAN3278-1300254.pdf" H 5750 3150 50  0001 C CNN
 F 4 "FAN3278TMX" H 5750 3050 50  0001 C CNN "MPN"
 	1    5750 3050
 	1    0    0    -1  
@@ -1809,7 +1809,7 @@ AR Path="/5DA86C16" Ref="U13"  Part="1"
 F 0 "U13" H 4400 5700 50  0000 C CNN
 F 1 "FAN3278" H 4450 5600 50  0000 C CNN
 F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 4300 4700 50  0001 L CNN
-F 3 "http://www.onsemi.com/pub/Collateral/FAN3268T_F085-D.PDF" H 4250 5250 50  0001 C CNN
+F 3 "https://www.mouser.se/datasheet/2/308/FAN3278-1300254.pdf" H 4250 5250 50  0001 C CNN
 F 4 "FAN3278TMX" H 4250 5150 50  0001 C CNN "MPN"
 	1    4250 5150
 	1    0    0    -1  
@@ -1851,7 +1851,7 @@ AR Path="/5DA86C55" Ref="U14"  Part="1"
 F 0 "U14" H 5900 5700 50  0000 C CNN
 F 1 "FAN3278" H 5950 5600 50  0000 C CNN
 F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 5800 4700 50  0001 L CNN
-F 3 "http://www.onsemi.com/pub/Collateral/FAN3268T_F085-D.PDF" H 5750 5250 50  0001 C CNN
+F 3 "https://www.mouser.se/datasheet/2/308/FAN3278-1300254.pdf" H 5750 5250 50  0001 C CNN
 F 4 "FAN3278TMX" H 5750 5150 50  0001 C CNN "MPN"
 	1    5750 5150
 	1    0    0    -1  
