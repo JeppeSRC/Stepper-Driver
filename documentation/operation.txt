@@ -1,0 +1,11 @@
+Connectors
+    J4: Power input
+    J1: Motor phase 1
+    J3: Motor phase 2
+    J5: Programming
+    J6: Motor control
+
+
+
+
+
