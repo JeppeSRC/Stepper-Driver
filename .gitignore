@@ -6,3 +6,7 @@ kicad/*.kicad_pcb-bak
 kicad/fp-info-cache
 kicad/StepperDriver-cache.lib
 kicad/_autosave*
+*.vs
+firmware/Debug/
+firmware/bin/
+tools/

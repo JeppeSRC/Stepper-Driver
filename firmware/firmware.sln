@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29613.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "firmware", "firmware.vcxproj", "{86DB4249-F36B-4D11-888C-BE7D81AB3E23}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{86DB4249-F36B-4D11-888C-BE7D81AB3E23}.Debug|x86.ActiveCfg = Debug|Win32
+		{86DB4249-F36B-4D11-888C-BE7D81AB3E23}.Debug|x86.Build.0 = Debug|Win32
+		{86DB4249-F36B-4D11-888C-BE7D81AB3E23}.Release|x86.ActiveCfg = Release|Win32
+		{86DB4249-F36B-4D11-888C-BE7D81AB3E23}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9CE885BA-EDC2-47B6-A034-D608A4FD6186}
+	EndGlobalSection
+EndGlobal
