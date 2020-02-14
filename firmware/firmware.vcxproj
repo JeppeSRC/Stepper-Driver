@@ -54,9 +54,20 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="src\main.c" />
+    <ClCompile Include="src\peripherals\adc.c" />
+    <ClCompile Include="src\peripherals\comp.c" />
+    <ClCompile Include="src\peripherals\gpio.c" />
+    <ClCompile Include="src\peripherals\timer.c" />
   </ItemGroup>
   <ItemGroup>
     <None Include="src\startup.asm" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\peripherals\adc.h" />
+    <ClInclude Include="src\peripherals\adresses.h" />
+    <ClInclude Include="src\peripherals\comp.h" />
+    <ClInclude Include="src\peripherals\gpio.h" />
+    <ClInclude Include="src\peripherals\timer.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
