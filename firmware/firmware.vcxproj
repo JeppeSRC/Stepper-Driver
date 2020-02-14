@@ -43,12 +43,14 @@
     </NMakePreprocessorDefinitions>
     <NMakeBuildCommandLine>tools\FuckMake.exe build</NMakeBuildCommandLine>
     <NMakeCleanCommandLine>tools\FuckMake.exe clean</NMakeCleanCommandLine>
+    <NMakeIncludeSearchPath>src/</NMakeIncludeSearchPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <NMakePreprocessorDefinitions>
     </NMakePreprocessorDefinitions>
     <NMakeBuildCommandLine>tools\FuckMake.exe build</NMakeBuildCommandLine>
     <NMakeCleanCommandLine>tools\FuckMake.exe clean</NMakeCleanCommandLine>
+    <NMakeIncludeSearchPath>src/</NMakeIncludeSearchPath>
   </PropertyGroup>
   <ItemDefinitionGroup>
   </ItemDefinitionGroup>
@@ -63,8 +65,9 @@
     <None Include="src\startup.asm" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="src\def.h" />
     <ClInclude Include="src\peripherals\adc.h" />
-    <ClInclude Include="src\peripherals\adresses.h" />
+    <ClInclude Include="src\peripherals\addresses.h" />
     <ClInclude Include="src\peripherals\comp.h" />
     <ClInclude Include="src\peripherals\gpio.h" />
     <ClInclude Include="src\peripherals\timer.h" />

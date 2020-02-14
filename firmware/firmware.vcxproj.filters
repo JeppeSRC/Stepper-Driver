@@ -46,10 +46,13 @@
     <ClInclude Include="src\peripherals\comp.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="src\peripherals\adresses.h">
+    <ClInclude Include="src\peripherals\adc.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="src\peripherals\adc.h">
+    <ClInclude Include="src\def.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\peripherals\addresses.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
