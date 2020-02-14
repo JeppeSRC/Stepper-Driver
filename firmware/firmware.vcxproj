@@ -65,7 +65,6 @@
     <None Include="src\startup.asm" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="src\def.h" />
     <ClInclude Include="src\peripherals\adc.h" />
     <ClInclude Include="src\peripherals\addresses.h" />
     <ClInclude Include="src\peripherals\comp.h" />
