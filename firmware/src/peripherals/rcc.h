@@ -15,4 +15,4 @@ void rcc_cfgr_sw(unsigned int data);
 
 void rcc_ahbenr();
 void rcc_apb2enr();
-void rcc_apb2enr();
+void rcc_apb1enr();

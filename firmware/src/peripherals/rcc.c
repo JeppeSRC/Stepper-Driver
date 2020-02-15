@@ -10,7 +10,7 @@ char rcc_cr_pllrdy() {
 char rcc_cr_pllon(unsigned int data) {
 	if (data == ~0) return (*cr >> 24) & 0x01;
 
-	*cr = (*cr & ~(1 << 24)) | ((data & 0x01) << 24);
+	return *cr = (*cr & ~(1 << 24)) | ((data & 0x01) << 24);
 }
 
 char rcc_cr_hsirdy() {
@@ -20,32 +20,32 @@ char rcc_cr_hsirdy() {
 char rcc_cr_hsion(unsigned int data) {
 	if (data == ~0) return *cr & 0x01;
 
-	*cr = (*cr & 0x01) | (data & 0x01);
+	return *cr = (*cr & 0x01) | (data & 0x01);
 }
 
 
 char rcc_cfgr_pllmul(unsigned int data) {
 	if (data == ~0) return (*cfgr >> 18) & 0x0F;
 
-	*cfgr = (*cfgr & ~(0x0F << 18)) | ((data & 0x0F) << 18);
+	return *cfgr = (*cfgr & ~(0x0F << 18)) | ((data & 0x0F) << 18);
 }
 
 char rcc_cfgr_pllsrc(unsigned int data) {
 	if (data == ~0) return (*cfgr >> 16) & 0x01;
 
-	*cfgr = (*cfgr & ~(0x01 << 16)) | ((data & 0x01) << 16);
+	return *cfgr = (*cfgr & ~(0x01 << 16)) | ((data & 0x01) << 16);
 }
 
 char rcc_cfgr_ppre2(unsigned int data) {
 	if (data == ~0) return (*cfgr >> 11) & 0x07;
 
-	*cfgr = (*cfgr & ~(0x07 << 11)) | ((data & 0x07) << 11);
+	return *cfgr = (*cfgr & ~(0x07 << 11)) | ((data & 0x07) << 11);
 }
 
 char rcc_cfgr_ppre1(unsigned int data) {
 	if (data == ~0) return (*cfgr >> 8) & 0x07;
 
-	*cfgr = (*cfgr & ~(0x07 << 8)) | ((data & 0x07) << 8);
+	return *cfgr = (*cfgr & ~(0x07 << 8)) | ((data & 0x07) << 8);
 }
 
 char rcc_cfgr_sws() {
