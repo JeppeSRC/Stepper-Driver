@@ -1,4 +1,4 @@
 #pragma once
 #include <peripherals/addresses.h>
 
-void InitializeComparators();
+void initialize_comparators();
