@@ -58,6 +58,7 @@
     <ClCompile Include="src\main.c" />
     <ClCompile Include="src\peripherals\adc.c" />
     <ClCompile Include="src\peripherals\comp.c" />
+    <ClCompile Include="src\peripherals\dac.c" />
     <ClCompile Include="src\peripherals\gpio.c" />
     <ClCompile Include="src\peripherals\timer.c" />
   </ItemGroup>
@@ -68,6 +69,7 @@
     <ClInclude Include="src\peripherals\adc.h" />
     <ClInclude Include="src\peripherals\addresses.h" />
     <ClInclude Include="src\peripherals\comp.h" />
+    <ClInclude Include="src\peripherals\dac.h" />
     <ClInclude Include="src\peripherals\gpio.h" />
     <ClInclude Include="src\peripherals\timer.h" />
   </ItemGroup>
