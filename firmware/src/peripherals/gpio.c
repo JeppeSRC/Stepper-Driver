@@ -254,7 +254,7 @@ void gpio_bsrr(unsigned int address, unsigned int port, unsigned int data) {
 	if (data) {
 		gpio_write_1(address + 0x18, port, 1);
 	} else {
-		gpio_write_1(address + 0x18, port << 1, 1);
+		gpio_write_1(address + 0x18, 16 + port, 1);
 	}
 }
 
