@@ -33,6 +33,9 @@
     <ClCompile Include="src\peripherals\dac.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="src\peripherals\rcc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="src\startup.asm">
@@ -56,6 +59,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="src\peripherals\dac.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\peripherals\rcc.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
