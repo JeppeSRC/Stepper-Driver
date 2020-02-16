@@ -42,6 +42,9 @@
     <ClCompile Include="src\peripherals\exti.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="src\peripherals\nvic.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="src\startup.asm">
@@ -71,6 +74,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="src\peripherals\exti.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\peripherals\nvic.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

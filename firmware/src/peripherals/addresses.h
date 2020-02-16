@@ -17,3 +17,5 @@
 #define ADC1 0x50000000
 
 #define EXTI 0x40010400
+
+#define NVIC 0xE000E000
