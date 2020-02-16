@@ -40,7 +40,7 @@ ConvertToDFU {
 build:
     ExecuteList(Compile, %(CFILES), %(ObjDir))
     ExecuteList(Assemble, %(ASMFILES), %(ObjDir))
-    Execute(Link, GetFiles(%(ObjDir), *.obj,), %(OutDir)firmware.elf)
+    Execute(Link, GetFiles(%(ObjDir), *.obj, *.c.*)GetFiles(%(ObjDir), *.obj, *.asm.*), %(OutDir)firmware.elf)
     Execute(ConvertToDFU, %(OutDir)firmware.elf, %(OutDir)firmware.dfu)
 
 clean:
