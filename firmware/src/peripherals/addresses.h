@@ -15,3 +15,5 @@
 #define DAC2 0x40009800
 
 #define ADC1 0x50000000
+
+#define EXTI 0x40010400
