@@ -72,5 +72,5 @@ void rcc_apb2enr() {
 void rcc_apb1enr() {
 	volatile unsigned int* apb1 = (volatile unsigned int*)(RCC + 0x1C);
 
-	*apb1 |= 0x24000003;
+	*apb1 |= 0x24000010;
 }

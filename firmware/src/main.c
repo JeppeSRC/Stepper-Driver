@@ -23,6 +23,7 @@ Pinout:
 
 #include <peripherals/gpio.h>
 #include <peripherals/rcc.h>
+#include <peripherals/timer.h>
 
 int main() {
 	rcc_cr_pllon(0);
@@ -42,6 +43,8 @@ int main() {
 	rcc_ahbenr();
 	rcc_apb2enr();
 	rcc_apb1enr();
+
+	tim6_init();
 
 	gpioa_mode(0, OUTPUT);
 	gpioa_mode(1, OUTPUT);
