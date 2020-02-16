@@ -59,7 +59,7 @@ void exti_trigger_falling_disable(unsigned int line) {
 	exti_disable(ftsr1, ftsr2, line);
 }
 
-void exit_clear_pending(unsigned int line) {
+void exti_clear_pending(unsigned int line) {
 	exti_enable(pr1, pr2, line);
 }
 
@@ -67,18 +67,18 @@ char exti_interrupt_is_enabled(unsigned int line) {
 	return exti_read(imr1, imr2, line);
 }
 
-char exit_trigger_rising_is_enabled(unsigned int line) {
+char exti_trigger_rising_is_enabled(unsigned int line) {
 	return exti_read(rtsr1, rtsr2, line);
 }
 
-char exit_trigger_falling_is_enabled(unsigned int line) {
+char exti_trigger_falling_is_enabled(unsigned int line) {
 	return exti_read(ftsr1, ftsr2, line);
 }
 
-char exit_is_pending(unsigned int line) {
+char exti_is_pending(unsigned int line) {
 	return exti_read(pr1, pr2, line);
 }
 
-void exit_trigger_interrupt(unsigned int line) {
+void exti_trigger_interrupt(unsigned int line) {
 	exti_enable(swier1, swier2, line);
 }
