@@ -258,24 +258,50 @@ void gpio_bsrr(unsigned int address, unsigned int port, unsigned int data) {
 	}
 }
 
-void gpioa_bsrr(unsigned int port, unsigned int data) {
+void gpioa_bsrr_port(unsigned int port, unsigned int data) {
 	gpio_bsrr(GPIOA, port, data);
 }
 
-void gpiob_bsrr(unsigned int port, unsigned int data) {
+void gpiob_bsrr_port(unsigned int port, unsigned int data) {
 	gpio_bsrr(GPIOB, port, data);
 }
 
-void gpioc_bsrr(unsigned int port, unsigned int data) {
+void gpioc_bsrr_port(unsigned int port, unsigned int data) {
 	gpio_bsrr(GPIOC, port, data);
 }
 
-void gpiod_bsrr(unsigned int port, unsigned int data) {
+void gpiod_bsrr_port(unsigned int port, unsigned int data) {
 	gpio_bsrr(GPIOD, port, data);
 }
 
-void gpiof_bsrr(unsigned int port, unsigned int data) {
+void gpiof_bsrr_port(unsigned int port, unsigned int data) {
 	gpio_bsrr(GPIOF, port, data);
+}
+
+void gpio_bssr_write(unsigned int address, unsigned int data) {
+	volatile unsigned int* bsrr = (volatile unsigned int*)(address + 0x18);
+
+	*bsrr = data;
+}
+
+void gpioa_bsrr(unsigned int data) {
+	gpio_bssr_write(GPIOA, data);
+}
+
+void gpiob_bsrr(unsigned int data) {
+	gpio_bssr_write(GPIOB, data);
+}
+
+void gpioc_bsrr(unsigned int data) {
+	gpio_bssr_write(GPIOC, data);
+}
+
+void gpiod_bsrr(unsigned int data) {
+	gpio_bssr_write(GPIOD, data);
+}
+
+void gpiof_bsrr(unsigned int data) {
+	gpio_bssr_write(GPIOF, data);
 }
 
 //alternate function

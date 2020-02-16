@@ -78,11 +78,17 @@ unsigned int gpioc_read_output();
 unsigned int gpiod_read_output();
 unsigned int gpiof_read_output();
 
-void gpioa_bsrr(unsigned int port, unsigned int data);
-void gpiob_bsrr(unsigned int port, unsigned int data);
-void gpioc_bsrr(unsigned int port, unsigned int data);
-void gpiod_bsrr(unsigned int port, unsigned int data);
-void gpiof_bsrr(unsigned int port, unsigned int data);
+void gpioa_bsrr_port(unsigned int port, unsigned int data);
+void gpiob_bsrr_port(unsigned int port, unsigned int data);
+void gpioc_bsrr_port(unsigned int port, unsigned int data);
+void gpiod_bsrr_port(unsigned int port, unsigned int data);
+void gpiof_bsrr_port(unsigned int port, unsigned int data);
+
+void gpioa_bsrr(unsigned int data);
+void gpiob_bsrr(unsigned int data);
+void gpioc_bsrr(unsigned int data);
+void gpiod_bsrr(unsigned int data);
+void gpiof_bsrr(unsigned int data);
 
 void gpioa_alternate_function(unsigned int port, unsigned int data);
 void gpiob_alternate_function(unsigned int port, unsigned int data);

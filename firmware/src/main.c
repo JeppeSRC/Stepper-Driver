@@ -93,7 +93,7 @@ int main() {
 
 	while (1) {
 		tmp = ~tmp;
-		gpioa_bsrr(0, tmp);
+		gpioa_bsrr_port(0, tmp);
 	}
 
 	return 0;
