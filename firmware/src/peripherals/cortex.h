@@ -10,3 +10,5 @@ char nvic_interrupt_is_enabled(unsigned int irq);
 char nvic_is_pending(unsigned int irq);
 
 void nvic_trigger_interrupt(unsigned int irq);
+
+void scb_vtor(unsigned int offset, unsigned int base);
