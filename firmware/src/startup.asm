@@ -1,8 +1,5 @@
 .syntax unified
 .thumb
-
-.section .isr_vector,"ax"
-
 .macro IRQ handler
     .word \handler
     .weak \handler
@@ -24,14 +21,11 @@
 .extern _bssend
 .extern main
 
-.thumb
-isr_vector:
-    .word 0x20003000
-    .word Reset_Handler
-
 .section .isr_vector_ccm,"ax"
 .thumb
- isr_vector_ccm:
+isr_vector_ccm:
+    .word 0x20003000
+    .word Reset_Handler
     IRQ NMI_Handler
     IRQ HardFault_Handler
     IRQ MemManage_Handler
@@ -129,7 +123,12 @@ isr_vector:
     .word 0
     IRQ FPU_Handler
 
-.section isr_vector, "ax"
+.section .isr_vector, "ax"
+
+.thumb
+isr_vector:
+    .word 0x20003000
+    .word Reset_Handler
 
 TEXT_START: .word _textstart
 TEXT_END: .word _textend
