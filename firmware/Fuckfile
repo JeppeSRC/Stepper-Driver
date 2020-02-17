@@ -19,7 +19,7 @@ LFLAGS = -nostartfiles -nodefaultlibs -nostdlib -Wl,--gc-sections --specs=nosys.
 
 Compile {
     Msg(Compiling %Input)
-    !%(CC) %(CFLAGS) %(INC) -c -o %Output %Input 
+    !%(CC) %(CFLAGS) %(INC) -D_CCM -c -o %Output %Input 
 }
 
 Assemble {

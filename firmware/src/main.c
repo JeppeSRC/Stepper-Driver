@@ -24,8 +24,28 @@ Pinout:
 #include <peripherals/gpio.h>
 #include <peripherals/rcc.h>
 #include <peripherals/timer.h>
+#include <peripherals/cortex.h>
+#include <peripherals/exti.h>
+
+extern unsigned int CCM_START;
+extern unsigned int CCM_END;
+extern unsigned int LMA_CCM_START;
+
+void move_isr_vector() {
+	volatile unsigned int* start = (volatile unsigned int*)CCM_START;
+	volatile unsigned int* lma = (volatile unsigned int*)LMA_CCM_START;
+
+	unsigned int size = CCM_END - CCM_START;
+
+	for (unsigned int i = 0; i < size; i++) {
+		start[i] = lma[i];
+	}
+
+	scb_vtor(CCM_START, 1);
+}
 
 int main() {
+	move_isr_vector();
 	rcc_cr_pllon(0);
 
 	while (rcc_cr_pllrdy());
@@ -43,8 +63,6 @@ int main() {
 	rcc_ahbenr();
 	rcc_apb2enr();
 	rcc_apb1enr();
-
-	tim6_init();
 
 	gpioa_mode(0, OUTPUT);
 	gpioa_mode(1, OUTPUT);
@@ -89,6 +107,24 @@ int main() {
 
 	gpiof_pull_updown(0, NONE);
 	gpiof_pull_updown(1, NONE);
+
+	exti_interrupt_enable(7);
+	exti_interrupt_enable(22);
+	exti_interrupt_enable(30);
+
+	exti_trigger_rising_enable(7);
+	exti_trigger_rising_enable(22);
+	exti_trigger_rising_enable(30);
+
+	nvic_interrupt_enable(23); // EXTI9_5
+	nvic_interrupt_enable(54); // TIM6
+	nvic_interrupt_enable(64); // COMP2
+	nvic_interrupt_enable(65); // COMP4
+
+	tim6_init();
+	tim6_psc(31);
+	tim6_arr(1000);
+	tim6_start();
 	
 	//test
 
@@ -98,6 +134,6 @@ int main() {
 		tmp = ~tmp;
 		gpioa_bsrr_port(0, tmp);
 	}
-
+	
 	return 0;
 }

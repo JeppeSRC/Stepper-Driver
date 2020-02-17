@@ -18,7 +18,7 @@
 
 #define EXTI 0x40010400
 
-#define NVIC 0xE000E000
+#define SCB 0xE000E000
 
 #define TIM1 0x40012C00
 #define TIM2 0x40000000

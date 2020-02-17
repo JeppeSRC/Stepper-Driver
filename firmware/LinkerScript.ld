@@ -3,6 +3,7 @@ ENTRY(Reset_Handler)
 MEMORY {
   FLASH (rx)  : ORIGIN = 0x08000000, LENGTH = 0x08000 /*32K*/
   RAM (xrw)   : ORIGIN = 0x20000000, LENGTH = 0x03000 /*12K*/
+  CCM (xrw)   : ORIGIN = 0x10000000, LENGTH = 0x01000 /*4K*/
 }
 
 
@@ -42,6 +43,17 @@ SECTIONS {
     . = ALIGN(4);
     _dataend = .;
   } > RAM AT > FLASH
+
+  _lmaccmstart = LOADADDR(.ccm);
+
+  .ccm : {
+    . = ALIGN(4);
+    _ccmstart = .;
+    KEEP(*(.isr_vector_ccm));
+    *(.ccm*)
+    . = ALIGN(4);
+    _ccmend = .;
+  } > CCM AT > FLASH
 
   .bss : {
     . = ALIGN(4);

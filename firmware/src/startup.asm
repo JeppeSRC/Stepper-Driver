@@ -12,6 +12,9 @@
 .global isr_vector
 .global Default_Handler
 .global Reset_Handler
+.global CCM_START
+.global CCM_END
+.global LMA_CCM_START
 
 .extern _textend
 .extern _sidatastart
@@ -25,6 +28,10 @@
 isr_vector:
     .word 0x20003000
     .word Reset_Handler
+
+.section .isr_vector_ccm,"ax"
+.thumb
+ isr_vector_ccm:
     IRQ NMI_Handler
     IRQ HardFault_Handler
     IRQ MemManage_Handler
@@ -122,6 +129,8 @@ isr_vector:
     .word 0
     IRQ FPU_Handler
 
+.section isr_vector, "ax"
+
 TEXT_START: .word _textstart
 TEXT_END: .word _textend
 LMA_DATA_START: .word _lmadatastart
@@ -129,6 +138,9 @@ DATA_START: .word _datastart
 DATA_END: .word _dataend
 BSS_START: .word _bssstart
 BSS_END: .word _bssend
+CCM_START: .word _ccmstart
+CCM_END: .word _ccmend
+LMA_CCM_START: .word _lmaccmstart
 
 .thumb_func
 Reset_Handler:

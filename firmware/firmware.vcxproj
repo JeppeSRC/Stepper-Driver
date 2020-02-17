@@ -55,9 +55,9 @@
   <ItemDefinitionGroup>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="src\peripherals\nvic.c" />
+    <ClCompile Include="src\peripherals\cortex.c" />
     <ClCompile Include="src\peripherals\exti.c" />
-    <ClCompile Include="motor.c" />
+    <ClCompile Include="src\motor.c" />
     <ClCompile Include="src\main.c" />
     <ClCompile Include="src\peripherals\adc.c" />
     <ClCompile Include="src\peripherals\comp.c" />
@@ -70,7 +70,7 @@
     <None Include="src\startup.asm" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="src\peripherals\nvic.h" />
+    <ClInclude Include="src\peripherals\cortex.h" />
     <ClInclude Include="src\peripherals\exti.h" />
     <ClInclude Include="src\peripherals\adc.h" />
     <ClInclude Include="src\peripherals\addresses.h" />
