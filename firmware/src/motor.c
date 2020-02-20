@@ -14,8 +14,8 @@
 volatile unsigned char CCMDATA phase1State = 0;
 volatile unsigned char CCMDATA phase2State = 0;
 
-volatile unsigned char CCMDATA phase1CLimit = 0x10;
-volatile unsigned char CCMDATA phase2CLimit = 0x10;
+volatile unsigned char CCMDATA phase1CLimit = 0;
+volatile unsigned char CCMDATA phase2CLimit = 0;
 
 #define P1(f1, f2, f3, f4) (f1 << 2) | (f2 << 3) | (f3 << 4) | (f4 << 5) | ((f1 * -1 + 1) << 18) | ((f2 * -1 + 1) << 19) | ((f3 * -1 + 1) << 20) | ((f4 * -1 + 1) << 21) 
 #define P2(f1, f2, f3, f4) (f1 << 0) | (f2 << 1) | (f3 << 2) | (f4 << 3) | ((f1 * -1 + 1) << 16) | ((f2 * -1 + 1) << 17) | ((f3 * -1 + 1) << 18) | ((f4 * -1 + 1) << 19) 
@@ -61,7 +61,7 @@ void CCMCODE COMP4_6_Handler() { // IRQ 65 EXTI 30 De-energiezes the phase when 
 
 volatile unsigned short CCMDATA steps = 0x01;
 
-void CCMCODE EXTI9_5_Handler() { // IRQ 23
+void CCMCODE EXTI9_5_Handler() { // IRQ 23 EXTI 7 Handles step requests
 
 	unsigned char dir = gpiob_read_input_port(7);
 
