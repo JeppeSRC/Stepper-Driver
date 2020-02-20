@@ -46,6 +46,7 @@ void move_isr_vector() {
 
 int main() {
 	move_isr_vector();
+
 	rcc_cr_pllon(0);
 
 	while (rcc_cr_pllrdy());
