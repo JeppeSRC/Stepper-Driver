@@ -47,7 +47,7 @@ SECTIONS {
   _lmaccmstart = LOADADDR(.ccm);
 
   .ccm : {
-    . = ALIGN(4);
+    . = ALIGN(512);
     _ccmstart = .;
     KEEP(*(.isr_vector_ccm));
     *(.ccm*)
