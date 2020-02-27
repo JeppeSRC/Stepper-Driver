@@ -17,6 +17,11 @@ volatile unsigned char CCMDATA phase2State = 0;
 volatile unsigned char CCMDATA phase1CLimit = 0;
 volatile unsigned char CCMDATA phase2CLimit = 0;
 
+//f1 = top left mosfet
+//f2 = bottom left mosfet
+//f3 = top right mosfet
+//f4 = bottom right mosfetr
+
 #define P1(f1, f2, f3, f4) (f1 << 2) | (f2 << 3) | (f3 << 4) | (f4 << 5) | ((f1 * -1 + 1) << 18) | ((f2 * -1 + 1) << 19) | ((f3 * -1 + 1) << 20) | ((f4 * -1 + 1) << 21) 
 #define P2(f1, f2, f3, f4) (f1 << 0) | (f2 << 1) | (f3 << 2) | (f4 << 3) | ((f1 * -1 + 1) << 16) | ((f2 * -1 + 1) << 17) | ((f3 * -1 + 1) << 18) | ((f4 * -1 + 1) << 19) 
 
