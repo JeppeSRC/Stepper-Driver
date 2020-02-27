@@ -21,15 +21,19 @@ volatile unsigned char CCMDATA phase2CLimit = 0;
 #define P2(f1, f2, f3, f4) (f1 << 0) | (f2 << 1) | (f3 << 2) | (f4 << 3) | ((f1 * -1 + 1) << 16) | ((f2 * -1 + 1) << 17) | ((f3 * -1 + 1) << 18) | ((f4 * -1 + 1) << 19) 
 
 unsigned int CCMDATA phase1States[] = {
-	P1(0, 0, 0, 0), 
+	P1(0, 0, 0, 0),
 	P1(1, 0, 0, 1), // 1
-	P1(0, 1, 1, 0) // 1'
+	P1(0, 1, 1, 0), // 1'
+
+	P1(0, 1, 0, 1) // Current limit state
 };
 
 unsigned int CCMDATA phase2States[] = {
 	P2(0, 0, 0, 0),
 	P2(1, 0, 0, 1), //2
-	P2(0, 1, 1, 0) //2'
+	P2(0, 1, 1, 0), //2'
+
+	P2(0, 1, 0, 1) // Current limit state
 };
 
 void CCMCODE set_phase2(unsigned char state) {
@@ -46,14 +50,14 @@ void CCMCODE TIM6_DAC1_Handler() { // IRQ 54 energizes the coils if it's suppose
 }
 
 void CCMCODE COMP2_Handler() { //IRQ 64 EXTI 22 De-energiezes the phase when current limit is reached
-	gpioa_bsrr(phase1States[0]);
+	gpioa_bsrr(phase1States[4]);
 	phase1CLimit = 1;
 
 	exti_clear_pending(22);
 }
 
 void CCMCODE COMP4_6_Handler() { // IRQ 65 EXTI 30 De-energiezes the phase when current limit is reached
-	set_phase2(0);
+	set_phase2(4);
 	phase2CLimit = 1;
 
 	exti_clear_pending(30);
