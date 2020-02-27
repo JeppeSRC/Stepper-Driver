@@ -124,7 +124,7 @@ int main() {
 
 	tim6_init();
 	tim6_psc(31);
-	tim6_arr(1000);
+	tim6_arr(10000);
 	tim6_start();
 	
 	//test
