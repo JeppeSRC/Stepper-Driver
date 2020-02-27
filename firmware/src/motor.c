@@ -109,6 +109,8 @@ void CCMCODE EXTI9_5_Handler() { // IRQ 23 EXTI 7 Handles step requests
 			break;
 	}
 
+	
+
 	steps += (dir << 1) - 1;
 
 	if (steps == 0) {
@@ -118,4 +120,6 @@ void CCMCODE EXTI9_5_Handler() { // IRQ 23 EXTI 7 Handles step requests
 	}
 
 	exti_clear_pending(7);
+
+	TIM6_DAC1_Handler();
 }
